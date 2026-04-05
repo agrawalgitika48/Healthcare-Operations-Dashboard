@@ -1,0 +1,123 @@
+SELECT * FROM Patient LIMIT 10;
+KPI #1 — Total Patients:
+SELECT COUNT(*) AS Total_Patients 
+FROM Patient;
+KPI #2 Total Visits:
+SELECT COUNT(*) AS Total_Visits 
+FROM Visits;
+KPI #3 — Average Age Patients:
+SELECT SUM(Age) / COUNT(Age) AS Average_Age
+FROM patient;
+KPI #4 — Follow-Up Rate:
+SELECT 
+    COUNT(*) AS Total_Visits,
+    SUM(CASE WHEN Visit_Type = 'Follow-Up' THEN 1 ELSE 0 END) AS Follow_Up_Visits,
+    SUM(CASE WHEN Visit_Type = 'Follow-Up' THEN 1 ELSE 0 END) * 100 / COUNT(*) AS Follow_Up_Rate_Percent
+FROM visits;
+KPI #5 — Top 5 Diagnosed Conditions:
+SELECT Diagnosis, COUNT(*) AS Total_Patients
+FROM patient
+GROUP BY Diagnosis
+ORDER BY Total_Patients DESC
+LIMIT 5;
+KPI #6 — Total Lab Tests Conducted:
+SELECT COUNT(*) AS Total_Lab_Tests
+FROM labtests;
+KPI #7 — Percentage of Abnormal Lab Results:
+SELECT 
+    COUNT(*) AS Total_Tests,
+    SUM(CASE WHEN Result_Status = 'Abnormal' THEN 1 ELSE 0 END) AS Abnormal_Tests,
+    SUM(CASE WHEN Result_Status = 'Abnormal' THEN 1 ELSE 0 END) * 100 / COUNT(*) AS Abnormal_Percent
+FROM labtests;
+KPI #8 — Total Doctors:
+SELECT COUNT(*) AS Total_Doctors
+FROM doctor;
+KPI #9 — Doctor Workload (Average Patients per Doctor):
+SELECT 
+    d.Doctor_Name,
+    d.Department,
+    COUNT(v.Patient_ID) AS Total_Patients_Seen
+FROM doctor d
+JOIN visits v ON d.Doctor_ID = v.Doctor_ID
+GROUP BY d.Doctor_Name, d.Department
+ORDER BY Total_Patients_Seen DESC;
+SELECT 
+    SUM(visit_count) / COUNT(*) AS Avg_Patients_Per_Doctor
+FROM (
+    SELECT d.Doctor_ID, COUNT(v.Patient_ID) AS visit_count
+    FROM doctor d
+    JOIN visits v ON d.Doctor_ID = v.Doctor_ID
+    GROUP BY d.Doctor_ID);
+KPI #10 — Average Treatment Cost Per Visit:
+SELECT 
+    SUM(Treatment_Cost) / COUNT(*) AS Avg_Treatment_Cost_Per_Visit
+FROM visits;
+ KPI — #11 Total Revenue (Treatment Cost + Visit Charges combined):
+ SELECT 
+    SUM(Treatment_Cost) AS Total_Treatment_Cost,
+    SUM(Visit_Charge) AS Total_Visit_Charges,
+    SUM(Treatment_Cost) + SUM(Visit_Charge) AS Total_Revenue
+FROM visits;
+KPI #12 — Revenue by Department:
+SELECT 
+    Department,
+    COUNT(*) AS Total_Visits,
+    SUM(Treatment_Cost) + SUM(Visit_Charge) AS Total_Revenue
+FROM visits
+GROUP BY Department
+ORDER BY Total_Revenue DESC;
+KPI #13 — Monthly Visit Trend:
+SELECT Visit_Date FROM visits LIMIT 5;
+SELECT 
+    substr(Visit_Date, 8, 4) AS Year,
+    substr(Visit_Date, 4, 3) AS Month,
+    COUNT(*) AS Total_Visits
+FROM visits
+GROUP BY Year, Month
+ORDER BY Year,
+    CASE substr(Visit_Date, 4, 3)
+        WHEN 'Jan' THEN 1 WHEN 'Feb' THEN 2 WHEN 'Mar' THEN 3
+        WHEN 'Apr' THEN 4 WHEN 'May' THEN 5 WHEN 'Jun' THEN 6
+        WHEN 'Jul' THEN 7 WHEN 'Aug' THEN 8 WHEN 'Sep' THEN 9
+        WHEN 'Oct' THEN 10 WHEN 'Nov' THEN 11 WHEN 'Dec' THEN 12
+    END;
+KPI #14 — Gender Distribution:
+SELECT 
+    Gender,
+    COUNT(*) AS Total_Patients,
+    COUNT(*) * 100 / (SELECT COUNT(*) FROM patient) AS Percentage
+FROM patient
+GROUP BY Gender;
+KPI #15 — City-wise Patient Distribution:
+SELECT 
+    City,
+    COUNT(*) AS Total_Patients
+FROM patient
+GROUP BY City
+ORDER BY Total_Patients DESC;
+KPI #16 — Abnormal Lab Results by Diagnosis:
+SELECT 
+    p.Diagnosis,
+    COUNT(l.Test_ID) AS Total_Tests,
+    SUM(CASE WHEN l.Result_Status = 'Abnormal' THEN 1 ELSE 0 END) AS Abnormal_Tests,
+    SUM(CASE WHEN l.Result_Status = 'Abnormal' THEN 1 ELSE 0 END) * 100 / COUNT(l.Test_ID) AS Abnormal_Percent
+FROM patient p
+JOIN visits v ON p.Patient_ID = v.Patient_ID
+JOIN labtests l ON v.Visit_ID = l.Visit_ID
+GROUP BY p.Diagnosis
+ORDER BY Abnormal_Percent DESC;
+KPI #17 — Visit Type Breakdown:
+SELECT 
+    Visit_Type,
+    COUNT(*) AS Total_Visits,
+    COUNT(*) * 100 / (SELECT COUNT(*) FROM visits) AS Percentage
+FROM visits
+GROUP BY Visit_Type
+ORDER BY Total_Visits DESC;
+KPI #18 — Most Performed Lab Tests:
+SELECT 
+    Test_Name,
+    COUNT(*) AS Total_Performed
+FROM labtests
+GROUP BY Test_Name
+ORDER BY Total_Performed DESC;

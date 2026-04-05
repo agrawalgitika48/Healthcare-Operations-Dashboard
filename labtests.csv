@@ -1,0 +1,1084 @@
+Test_ID,Visit_ID,Patient_ID,Test_Name,Test_Date,Result_Status,Test_Cost
+T0001,V0001,P001,Blood Glucose Fasting,28-Dec-2023,Abnormal,350
+T0002,V0001,P001,Kidney Function Test,28-Dec-2023,Normal,200
+T0003,V0001,P001,Liver Function Test,28-Dec-2023,Abnormal,1000
+T0004,V0002,P001,Complete Blood Count,21-Sep-2024,Abnormal,1000
+T0005,V0004,P002,Blood Glucose Fasting,04-Feb-2024,Abnormal,350
+T0006,V0004,P002,Blood Glucose Fasting,04-Feb-2024,Abnormal,1200
+T0007,V0004,P002,Complete Blood Count,04-Feb-2024,Normal,200
+T0008,V0005,P002,Blood Glucose Fasting,03-Jun-2024,Normal,350
+T0009,V0006,P002,Kidney Function Test,03-Jun-2024,Normal,750
+T0010,V0006,P002,Complete Blood Count,03-Jun-2024,Normal,1200
+T0011,V0007,P002,Complete Blood Count,11-Jul-2024,Abnormal,750
+T0012,V0007,P002,HbA1c,11-Jul-2024,Normal,500
+T0013,V0007,P002,ECG,11-Jul-2024,Normal,350
+T0014,V0008,P002,ECG,21-Jul-2024,Normal,500
+T0015,V0008,P002,Urine Routine,21-Jul-2024,Normal,1000
+T0016,V0008,P002,HbA1c,21-Jul-2024,Abnormal,350
+T0017,V0009,P003,ECG,20-Apr-2024,Normal,200
+T0018,V0009,P003,HbA1c,20-Apr-2024,Normal,750
+T0019,V0012,P004,Thyroid Profile,14-Nov-2023,Normal,500
+T0020,V0012,P004,HbA1c,14-Nov-2023,Normal,750
+T0021,V0013,P004,HbA1c,20-Nov-2023,Normal,350
+T0022,V0013,P004,Kidney Function Test,20-Nov-2023,Normal,750
+T0023,V0013,P004,Blood Glucose Fasting,20-Nov-2023,Normal,200
+T0024,V0014,P005,Lipid Profile,18-Feb-2023,Abnormal,350
+T0025,V0016,P005,Complete Blood Count,01-Jan-2024,Abnormal,1000
+T0026,V0016,P005,Chest X-Ray,01-Jan-2024,Normal,1200
+T0027,V0017,P006,Liver Function Test,23-May-2024,Normal,200
+T0028,V0017,P006,Urine Routine,23-May-2024,Normal,1200
+T0029,V0017,P006,Thyroid Profile,23-May-2024,Abnormal,1200
+T0030,V0018,P006,Complete Blood Count,24-May-2024,Normal,500
+T0031,V0019,P006,Complete Blood Count,09-Dec-2024,Normal,1000
+T0032,V0019,P006,Complete Blood Count,09-Dec-2024,Abnormal,1200
+T0033,V0020,P007,Thyroid Profile,23-Mar-2023,Abnormal,1000
+T0034,V0020,P007,Thyroid Profile,23-Mar-2023,Abnormal,1000
+T0035,V0021,P007,Thyroid Profile,16-Apr-2023,Normal,1000
+T0036,V0022,P007,HbA1c,25-Nov-2023,Normal,750
+T0037,V0025,P008,Chest X-Ray,18-Mar-2023,Normal,200
+T0038,V0025,P008,Lipid Profile,18-Mar-2023,Abnormal,1000
+T0039,V0025,P008,Kidney Function Test,18-Mar-2023,Normal,1200
+T0040,V0026,P008,Kidney Function Test,09-Oct-2023,Normal,500
+T0041,V0026,P008,Kidney Function Test,09-Oct-2023,Normal,500
+T0042,V0026,P008,Chest X-Ray,09-Oct-2023,Normal,1200
+T0043,V0027,P008,Thyroid Profile,16-Oct-2024,Normal,750
+T0044,V0030,P009,Chest X-Ray,05-Apr-2024,Normal,200
+T0045,V0030,P009,Liver Function Test,05-Apr-2024,Normal,1000
+T0046,V0031,P009,Liver Function Test,26-Nov-2024,Normal,200
+T0047,V0032,P010,Kidney Function Test,10-Jul-2023,Abnormal,200
+T0048,V0037,P011,Lipid Profile,18-Sep-2024,Normal,200
+T0049,V0037,P011,Kidney Function Test,18-Sep-2024,Abnormal,350
+T0050,V0037,P011,Kidney Function Test,18-Sep-2024,Abnormal,1000
+T0051,V0038,P011,Blood Glucose Fasting,11-Dec-2024,Normal,1000
+T0052,V0038,P011,Thyroid Profile,11-Dec-2024,Normal,1200
+T0053,V0039,P012,Lipid Profile,11-Jun-2023,Normal,750
+T0054,V0039,P012,Urine Routine,11-Jun-2023,Normal,200
+T0055,V0040,P012,Urine Routine,18-Dec-2024,Abnormal,750
+T0056,V0040,P012,Complete Blood Count,18-Dec-2024,Abnormal,500
+T0057,V0041,P012,Blood Glucose Fasting,27-Dec-2024,Normal,350
+T0058,V0041,P012,Urine Routine,27-Dec-2024,Normal,200
+T0059,V0042,P012,Liver Function Test,29-Dec-2024,Normal,1000
+T0060,V0042,P012,HbA1c,29-Dec-2024,Abnormal,1000
+T0061,V0042,P012,HbA1c,29-Dec-2024,Abnormal,1200
+T0062,V0043,P013,Chest X-Ray,09-Mar-2023,Normal,750
+T0063,V0045,P013,Liver Function Test,13-May-2023,Abnormal,750
+T0064,V0046,P013,Urine Routine,13-Nov-2023,Abnormal,1200
+T0065,V0046,P013,Chest X-Ray,13-Nov-2023,Abnormal,500
+T0066,V0047,P013,Lipid Profile,12-Feb-2024,Normal,350
+T0067,V0047,P013,Thyroid Profile,12-Feb-2024,Normal,750
+T0068,V0047,P013,Urine Routine,12-Feb-2024,Normal,350
+T0069,V0048,P013,Thyroid Profile,18-Sep-2024,Normal,200
+T0070,V0048,P013,Chest X-Ray,18-Sep-2024,Abnormal,500
+T0071,V0048,P013,Urine Routine,18-Sep-2024,Normal,200
+T0072,V0049,P014,Kidney Function Test,06-Jun-2023,Normal,350
+T0073,V0049,P014,Urine Routine,06-Jun-2023,Normal,1200
+T0074,V0050,P014,Kidney Function Test,14-Jun-2024,Abnormal,1000
+T0075,V0050,P014,ECG,14-Jun-2024,Normal,1000
+T0076,V0051,P015,Thyroid Profile,22-Mar-2023,Normal,350
+T0077,V0053,P015,Blood Glucose Fasting,14-Sep-2023,Normal,1200
+T0078,V0053,P015,Urine Routine,14-Sep-2023,Abnormal,350
+T0079,V0053,P015,Liver Function Test,14-Sep-2023,Normal,200
+T0080,V0054,P015,ECG,18-Oct-2023,Normal,200
+T0081,V0055,P015,Thyroid Profile,18-Jul-2024,Normal,1000
+T0082,V0055,P015,Liver Function Test,18-Jul-2024,Normal,1000
+T0083,V0055,P015,Lipid Profile,18-Jul-2024,Normal,1200
+T0084,V0057,P016,HbA1c,02-Mar-2024,Normal,200
+T0085,V0057,P016,Complete Blood Count,02-Mar-2024,Abnormal,500
+T0086,V0057,P016,Urine Routine,02-Mar-2024,Abnormal,500
+T0087,V0058,P016,Blood Glucose Fasting,08-Aug-2024,Normal,750
+T0088,V0058,P016,Kidney Function Test,08-Aug-2024,Normal,200
+T0089,V0058,P016,Chest X-Ray,08-Aug-2024,Abnormal,350
+T0090,V0060,P017,Kidney Function Test,03-Mar-2023,Abnormal,750
+T0091,V0060,P017,HbA1c,03-Mar-2023,Normal,200
+T0092,V0060,P017,HbA1c,03-Mar-2023,Abnormal,750
+T0093,V0061,P017,Thyroid Profile,16-Mar-2023,Abnormal,1000
+T0094,V0061,P017,ECG,16-Mar-2023,Normal,750
+T0095,V0061,P017,Complete Blood Count,16-Mar-2023,Normal,500
+T0096,V0063,P017,HbA1c,26-Mar-2024,Abnormal,500
+T0097,V0063,P017,Liver Function Test,26-Mar-2024,Normal,750
+T0098,V0066,P018,Thyroid Profile,10-Apr-2023,Normal,350
+T0099,V0066,P018,Chest X-Ray,10-Apr-2023,Normal,1200
+T0100,V0066,P018,Chest X-Ray,10-Apr-2023,Abnormal,1000
+T0101,V0068,P019,Chest X-Ray,23-Apr-2024,Normal,350
+T0102,V0068,P019,Chest X-Ray,23-Apr-2024,Normal,500
+T0103,V0068,P019,Kidney Function Test,23-Apr-2024,Normal,750
+T0104,V0069,P019,Urine Routine,25-May-2024,Normal,1000
+T0105,V0071,P020,HbA1c,19-Feb-2023,Normal,350
+T0106,V0072,P020,Urine Routine,21-Feb-2023,Normal,350
+T0107,V0073,P020,Blood Glucose Fasting,16-Oct-2023,Normal,350
+T0108,V0073,P020,Lipid Profile,16-Oct-2023,Normal,1200
+T0109,V0073,P020,Kidney Function Test,16-Oct-2023,Abnormal,750
+T0110,V0075,P021,Liver Function Test,17-Mar-2023,Normal,350
+T0111,V0075,P021,Blood Glucose Fasting,17-Mar-2023,Normal,350
+T0112,V0075,P021,Urine Routine,17-Mar-2023,Abnormal,1000
+T0113,V0076,P021,Urine Routine,19-Jul-2023,Normal,350
+T0114,V0076,P021,Complete Blood Count,19-Jul-2023,Abnormal,500
+T0115,V0076,P021,ECG,19-Jul-2023,Abnormal,350
+T0116,V0077,P021,Kidney Function Test,23-Oct-2023,Normal,350
+T0117,V0077,P021,ECG,23-Oct-2023,Normal,750
+T0118,V0077,P021,Thyroid Profile,23-Oct-2023,Abnormal,350
+T0119,V0078,P021,Chest X-Ray,07-Jan-2024,Normal,350
+T0120,V0082,P022,ECG,12-Apr-2024,Normal,1200
+T0121,V0082,P022,ECG,12-Apr-2024,Normal,350
+T0122,V0083,P022,Chest X-Ray,11-Jun-2024,Normal,1200
+T0123,V0084,P022,Urine Routine,15-Jun-2024,Normal,1000
+T0124,V0084,P022,Complete Blood Count,15-Jun-2024,Normal,1000
+T0125,V0084,P022,ECG,15-Jun-2024,Abnormal,200
+T0126,V0086,P023,Complete Blood Count,28-Jan-2023,Normal,1000
+T0127,V0086,P023,Complete Blood Count,28-Jan-2023,Normal,350
+T0128,V0086,P023,Chest X-Ray,28-Jan-2023,Abnormal,500
+T0129,V0088,P023,Urine Routine,06-Oct-2024,Normal,200
+T0130,V0091,P024,HbA1c,09-Aug-2024,Normal,200
+T0131,V0091,P024,Urine Routine,09-Aug-2024,Abnormal,1200
+T0132,V0091,P024,Chest X-Ray,09-Aug-2024,Normal,750
+T0133,V0092,P024,Urine Routine,18-Dec-2024,Abnormal,1200
+T0134,V0095,P026,Lipid Profile,27-Jun-2023,Normal,1200
+T0135,V0095,P026,Blood Glucose Fasting,27-Jun-2023,Normal,200
+T0136,V0097,P026,Chest X-Ray,17-Dec-2023,Normal,1200
+T0137,V0099,P026,Chest X-Ray,29-Jun-2024,Normal,200
+T0138,V0102,P027,Lipid Profile,22-Oct-2023,Normal,350
+T0139,V0102,P027,Complete Blood Count,22-Oct-2023,Abnormal,750
+T0140,V0102,P027,ECG,22-Oct-2023,Normal,500
+T0141,V0103,P027,Thyroid Profile,24-Dec-2023,Normal,200
+T0142,V0104,P027,ECG,27-Jul-2024,Abnormal,750
+T0143,V0104,P027,Complete Blood Count,27-Jul-2024,Normal,1000
+T0144,V0106,P028,ECG,21-May-2023,Normal,750
+T0145,V0106,P028,Urine Routine,21-May-2023,Normal,1000
+T0146,V0106,P028,HbA1c,21-May-2023,Abnormal,500
+T0147,V0107,P028,Thyroid Profile,23-Aug-2024,Normal,200
+T0148,V0107,P028,Complete Blood Count,23-Aug-2024,Abnormal,1200
+T0149,V0107,P028,Lipid Profile,23-Aug-2024,Normal,200
+T0150,V0110,P029,Chest X-Ray,21-Feb-2024,Abnormal,350
+T0151,V0111,P029,Urine Routine,02-May-2024,Normal,1000
+T0152,V0111,P029,Lipid Profile,02-May-2024,Normal,750
+T0153,V0113,P029,Liver Function Test,28-Oct-2024,Abnormal,500
+T0154,V0114,P029,Chest X-Ray,30-Oct-2024,Normal,1000
+T0155,V0114,P029,ECG,30-Oct-2024,Abnormal,350
+T0156,V0115,P030,Chest X-Ray,10-Jan-2023,Normal,1000
+T0157,V0115,P030,Thyroid Profile,10-Jan-2023,Abnormal,1000
+T0158,V0116,P030,HbA1c,02-Nov-2023,Normal,200
+T0159,V0116,P030,Urine Routine,02-Nov-2023,Normal,1200
+T0160,V0116,P030,Urine Routine,02-Nov-2023,Abnormal,500
+T0161,V0117,P031,Kidney Function Test,07-Oct-2023,Normal,350
+T0162,V0117,P031,ECG,07-Oct-2023,Normal,1000
+T0163,V0117,P031,ECG,07-Oct-2023,Normal,750
+T0164,V0120,P032,Complete Blood Count,29-Jun-2023,Normal,200
+T0165,V0120,P032,Blood Glucose Fasting,29-Jun-2023,Abnormal,1200
+T0166,V0124,P033,Thyroid Profile,30-Aug-2023,Normal,200
+T0167,V0124,P033,Liver Function Test,30-Aug-2023,Normal,500
+T0168,V0126,P033,Complete Blood Count,06-Nov-2023,Normal,200
+T0169,V0126,P033,Kidney Function Test,06-Nov-2023,Normal,750
+T0170,V0126,P033,Urine Routine,06-Nov-2023,Normal,200
+T0171,V0128,P033,ECG,02-Apr-2024,Normal,750
+T0172,V0128,P033,Lipid Profile,02-Apr-2024,Normal,750
+T0173,V0129,P034,HbA1c,17-May-2023,Normal,500
+T0174,V0129,P034,Chest X-Ray,17-May-2023,Normal,1200
+T0175,V0130,P034,Kidney Function Test,06-Jun-2023,Abnormal,1000
+T0176,V0130,P034,Thyroid Profile,06-Jun-2023,Normal,1000
+T0177,V0130,P034,Kidney Function Test,06-Jun-2023,Normal,200
+T0178,V0132,P034,Chest X-Ray,15-Aug-2023,Normal,1200
+T0179,V0133,P034,Chest X-Ray,10-Apr-2024,Normal,350
+T0180,V0134,P034,Kidney Function Test,04-May-2024,Normal,1200
+T0181,V0134,P034,Chest X-Ray,04-May-2024,Abnormal,200
+T0182,V0135,P035,Liver Function Test,03-Jun-2023,Normal,350
+T0183,V0136,P035,Complete Blood Count,18-Jun-2023,Abnormal,350
+T0184,V0138,P035,HbA1c,01-Jun-2024,Normal,350
+T0185,V0139,P035,HbA1c,03-Jul-2024,Normal,500
+T0186,V0139,P035,Lipid Profile,03-Jul-2024,Normal,200
+T0187,V0143,P036,Chest X-Ray,15-Aug-2024,Abnormal,1200
+T0188,V0143,P036,Blood Glucose Fasting,15-Aug-2024,Normal,200
+T0189,V0143,P036,Complete Blood Count,15-Aug-2024,Normal,1200
+T0190,V0146,P037,Liver Function Test,23-Feb-2024,Abnormal,200
+T0191,V0147,P037,Thyroid Profile,18-Oct-2024,Normal,500
+T0192,V0147,P037,Liver Function Test,18-Oct-2024,Abnormal,500
+T0193,V0148,P038,Liver Function Test,04-Jan-2023,Normal,350
+T0194,V0148,P038,Blood Glucose Fasting,04-Jan-2023,Abnormal,200
+T0195,V0150,P038,Kidney Function Test,11-May-2023,Abnormal,1000
+T0196,V0151,P038,Liver Function Test,17-Aug-2023,Normal,1000
+T0197,V0152,P038,Kidney Function Test,25-Jun-2024,Normal,1000
+T0198,V0153,P039,Complete Blood Count,10-Mar-2023,Abnormal,200
+T0199,V0154,P039,Lipid Profile,14-Apr-2023,Normal,1200
+T0200,V0155,P039,ECG,31-Aug-2024,Normal,1000
+T0201,V0155,P039,Kidney Function Test,31-Aug-2024,Normal,350
+T0202,V0155,P039,HbA1c,31-Aug-2024,Normal,200
+T0203,V0158,P040,ECG,11-Aug-2023,Abnormal,200
+T0204,V0159,P040,ECG,28-Aug-2023,Normal,750
+T0205,V0159,P040,Thyroid Profile,28-Aug-2023,Abnormal,350
+T0206,V0159,P040,Urine Routine,28-Aug-2023,Normal,500
+T0207,V0161,P040,Kidney Function Test,30-May-2024,Normal,500
+T0208,V0161,P040,Complete Blood Count,30-May-2024,Normal,200
+T0209,V0161,P040,Kidney Function Test,30-May-2024,Normal,750
+T0210,V0162,P041,Kidney Function Test,02-Jun-2023,Abnormal,1000
+T0211,V0163,P041,Blood Glucose Fasting,04-Nov-2023,Abnormal,500
+T0212,V0163,P041,Blood Glucose Fasting,04-Nov-2023,Normal,500
+T0213,V0163,P041,Chest X-Ray,04-Nov-2023,Normal,1000
+T0214,V0164,P041,Lipid Profile,23-Nov-2023,Abnormal,750
+T0215,V0164,P041,Kidney Function Test,23-Nov-2023,Normal,350
+T0216,V0164,P041,Urine Routine,23-Nov-2023,Normal,750
+T0217,V0166,P041,Thyroid Profile,02-Mar-2024,Normal,350
+T0218,V0166,P041,Blood Glucose Fasting,02-Mar-2024,Normal,1200
+T0219,V0168,P042,Urine Routine,22-Feb-2023,Abnormal,750
+T0220,V0168,P042,Blood Glucose Fasting,22-Feb-2023,Normal,750
+T0221,V0169,P042,Blood Glucose Fasting,05-Apr-2023,Abnormal,1200
+T0222,V0169,P042,Chest X-Ray,05-Apr-2023,Normal,500
+T0223,V0170,P042,Thyroid Profile,15-Jul-2023,Abnormal,350
+T0224,V0170,P042,Complete Blood Count,15-Jul-2023,Normal,350
+T0225,V0170,P042,ECG,15-Jul-2023,Normal,1000
+T0226,V0171,P042,Thyroid Profile,02-Jul-2024,Normal,350
+T0227,V0171,P042,Kidney Function Test,02-Jul-2024,Normal,500
+T0228,V0171,P042,Liver Function Test,02-Jul-2024,Normal,750
+T0229,V0175,P044,Chest X-Ray,03-Sep-2023,Normal,350
+T0230,V0175,P044,Complete Blood Count,03-Sep-2023,Normal,500
+T0231,V0175,P044,Complete Blood Count,03-Sep-2023,Normal,200
+T0232,V0178,P044,Thyroid Profile,19-Jul-2024,Normal,750
+T0233,V0178,P044,Chest X-Ray,19-Jul-2024,Normal,1200
+T0234,V0179,P044,Chest X-Ray,21-Dec-2024,Normal,1000
+T0235,V0179,P044,Lipid Profile,21-Dec-2024,Abnormal,750
+T0236,V0180,P045,Kidney Function Test,17-Jan-2023,Normal,750
+T0237,V0180,P045,Lipid Profile,17-Jan-2023,Abnormal,350
+T0238,V0180,P045,Complete Blood Count,17-Jan-2023,Abnormal,350
+T0239,V0182,P045,Lipid Profile,20-Jul-2024,Normal,200
+T0240,V0182,P045,Chest X-Ray,20-Jul-2024,Abnormal,750
+T0241,V0186,P046,HbA1c,19-Oct-2024,Normal,750
+T0242,V0186,P046,Thyroid Profile,19-Oct-2024,Normal,350
+T0243,V0187,P047,Thyroid Profile,07-Jan-2023,Normal,1200
+T0244,V0188,P047,Urine Routine,27-Feb-2024,Normal,500
+T0245,V0188,P047,Complete Blood Count,27-Feb-2024,Abnormal,1000
+T0246,V0189,P048,ECG,03-Mar-2023,Abnormal,1200
+T0247,V0189,P048,HbA1c,03-Mar-2023,Abnormal,500
+T0248,V0190,P048,Urine Routine,18-Jan-2024,Normal,200
+T0249,V0191,P048,Blood Glucose Fasting,24-Sep-2024,Normal,1200
+T0250,V0191,P048,Urine Routine,24-Sep-2024,Normal,500
+T0251,V0191,P048,Kidney Function Test,24-Sep-2024,Normal,1000
+T0252,V0193,P048,Urine Routine,13-Nov-2024,Normal,1200
+T0253,V0193,P048,Kidney Function Test,13-Nov-2024,Normal,500
+T0254,V0193,P048,Complete Blood Count,13-Nov-2024,Abnormal,1200
+T0255,V0197,P050,Urine Routine,20-Aug-2023,Normal,350
+T0256,V0198,P050,Urine Routine,04-Nov-2023,Normal,200
+T0257,V0198,P050,Blood Glucose Fasting,04-Nov-2023,Abnormal,350
+T0258,V0198,P050,Liver Function Test,04-Nov-2023,Normal,500
+T0259,V0199,P050,Liver Function Test,14-Dec-2024,Abnormal,200
+T0260,V0199,P050,Urine Routine,14-Dec-2024,Normal,350
+T0261,V0203,P052,Thyroid Profile,24-Jun-2024,Abnormal,750
+T0262,V0204,P053,Kidney Function Test,18-Mar-2023,Normal,200
+T0263,V0204,P053,Urine Routine,18-Mar-2023,Normal,350
+T0264,V0204,P053,Chest X-Ray,18-Mar-2023,Normal,750
+T0265,V0205,P053,Lipid Profile,01-Dec-2024,Normal,350
+T0266,V0205,P053,Kidney Function Test,01-Dec-2024,Normal,200
+T0267,V0206,P054,ECG,17-Jan-2023,Abnormal,750
+T0268,V0207,P054,HbA1c,28-May-2023,Normal,350
+T0269,V0207,P054,Chest X-Ray,28-May-2023,Normal,750
+T0270,V0208,P054,Complete Blood Count,01-Aug-2023,Normal,500
+T0271,V0208,P054,ECG,01-Aug-2023,Normal,750
+T0272,V0208,P054,HbA1c,01-Aug-2023,Normal,1200
+T0273,V0210,P055,Chest X-Ray,24-Feb-2023,Normal,1000
+T0274,V0210,P055,Liver Function Test,24-Feb-2023,Normal,500
+T0275,V0210,P055,Blood Glucose Fasting,24-Feb-2023,Abnormal,500
+T0276,V0212,P055,Urine Routine,26-Aug-2023,Normal,350
+T0277,V0212,P055,Lipid Profile,26-Aug-2023,Normal,500
+T0278,V0212,P055,Complete Blood Count,26-Aug-2023,Normal,200
+T0279,V0213,P055,ECG,23-Mar-2024,Normal,500
+T0280,V0214,P056,Complete Blood Count,10-Jul-2023,Abnormal,200
+T0281,V0214,P056,Complete Blood Count,10-Jul-2023,Normal,1000
+T0282,V0218,P056,Blood Glucose Fasting,27-Nov-2024,Normal,1000
+T0283,V0218,P056,Urine Routine,27-Nov-2024,Abnormal,350
+T0284,V0218,P056,Lipid Profile,27-Nov-2024,Normal,500
+T0285,V0219,P057,ECG,12-Nov-2023,Normal,500
+T0286,V0219,P057,Kidney Function Test,12-Nov-2023,Normal,500
+T0287,V0219,P057,Blood Glucose Fasting,12-Nov-2023,Abnormal,500
+T0288,V0221,P058,Liver Function Test,27-Jan-2023,Normal,500
+T0289,V0221,P058,Blood Glucose Fasting,27-Jan-2023,Abnormal,750
+T0290,V0223,P058,ECG,16-Apr-2023,Abnormal,200
+T0291,V0223,P058,Chest X-Ray,16-Apr-2023,Abnormal,350
+T0292,V0224,P058,Liver Function Test,22-Feb-2024,Normal,200
+T0293,V0225,P058,Liver Function Test,08-Jun-2024,Normal,750
+T0294,V0226,P058,Complete Blood Count,22-Jul-2024,Abnormal,200
+T0295,V0226,P058,Liver Function Test,22-Jul-2024,Normal,350
+T0296,V0229,P059,ECG,21-Mar-2024,Normal,750
+T0297,V0229,P059,Blood Glucose Fasting,21-Mar-2024,Normal,1000
+T0298,V0229,P059,Chest X-Ray,21-Mar-2024,Abnormal,1200
+T0299,V0231,P060,Kidney Function Test,20-Apr-2023,Normal,500
+T0300,V0231,P060,Chest X-Ray,20-Apr-2023,Normal,200
+T0301,V0231,P060,Blood Glucose Fasting,20-Apr-2023,Normal,500
+T0302,V0232,P060,ECG,19-May-2023,Abnormal,500
+T0303,V0232,P060,Lipid Profile,19-May-2023,Normal,1000
+T0304,V0233,P060,Liver Function Test,20-Jul-2023,Normal,1200
+T0305,V0233,P060,Blood Glucose Fasting,20-Jul-2023,Normal,1200
+T0306,V0235,P060,Thyroid Profile,13-Apr-2024,Normal,350
+T0307,V0235,P060,Complete Blood Count,13-Apr-2024,Abnormal,1200
+T0308,V0235,P060,Thyroid Profile,13-Apr-2024,Normal,750
+T0309,V0236,P061,ECG,15-Oct-2023,Normal,1000
+T0310,V0236,P061,ECG,15-Oct-2023,Normal,200
+T0311,V0236,P061,Complete Blood Count,15-Oct-2023,Abnormal,500
+T0312,V0238,P061,HbA1c,21-Jan-2024,Abnormal,750
+T0313,V0241,P062,Blood Glucose Fasting,24-Mar-2024,Normal,200
+T0314,V0241,P062,ECG,24-Mar-2024,Normal,1200
+T0315,V0241,P062,Urine Routine,24-Mar-2024,Abnormal,200
+T0316,V0242,P062,Lipid Profile,10-Dec-2024,Abnormal,1200
+T0317,V0242,P062,Liver Function Test,10-Dec-2024,Abnormal,200
+T0318,V0242,P062,Lipid Profile,10-Dec-2024,Normal,1000
+T0319,V0243,P062,Urine Routine,26-Dec-2024,Abnormal,1000
+T0320,V0244,P063,Chest X-Ray,04-Jan-2024,Normal,500
+T0321,V0245,P063,Lipid Profile,19-Dec-2024,Normal,500
+T0322,V0245,P063,Thyroid Profile,19-Dec-2024,Normal,200
+T0323,V0245,P063,Kidney Function Test,19-Dec-2024,Normal,200
+T0324,V0246,P064,Lipid Profile,15-Feb-2023,Normal,1200
+T0325,V0247,P064,Urine Routine,14-Feb-2024,Normal,200
+T0326,V0248,P064,Lipid Profile,30-Jul-2024,Normal,200
+T0327,V0248,P064,Blood Glucose Fasting,30-Jul-2024,Normal,200
+T0328,V0248,P064,Blood Glucose Fasting,30-Jul-2024,Abnormal,1200
+T0329,V0251,P064,Thyroid Profile,24-Nov-2024,Normal,350
+T0330,V0251,P064,HbA1c,24-Nov-2024,Normal,750
+T0331,V0252,P065,Complete Blood Count,16-Nov-2023,Normal,1000
+T0332,V0253,P065,Blood Glucose Fasting,18-Dec-2023,Normal,1200
+T0333,V0253,P065,Liver Function Test,18-Dec-2023,Normal,500
+T0334,V0254,P065,Blood Glucose Fasting,23-Dec-2023,Abnormal,1000
+T0335,V0254,P065,Urine Routine,23-Dec-2023,Normal,500
+T0336,V0254,P065,HbA1c,23-Dec-2023,Normal,1000
+T0337,V0255,P066,Liver Function Test,24-Jan-2023,Normal,200
+T0338,V0255,P066,Lipid Profile,24-Jan-2023,Abnormal,1200
+T0339,V0255,P066,ECG,24-Jan-2023,Normal,750
+T0340,V0256,P066,Complete Blood Count,15-Feb-2023,Normal,1200
+T0341,V0256,P066,Thyroid Profile,15-Feb-2023,Normal,750
+T0342,V0256,P066,Urine Routine,15-Feb-2023,Abnormal,750
+T0343,V0257,P066,HbA1c,28-Apr-2023,Abnormal,350
+T0344,V0257,P066,Complete Blood Count,28-Apr-2023,Abnormal,750
+T0345,V0257,P066,Blood Glucose Fasting,28-Apr-2023,Normal,350
+T0346,V0259,P067,Kidney Function Test,08-Jul-2023,Normal,350
+T0347,V0259,P067,Kidney Function Test,08-Jul-2023,Normal,350
+T0348,V0260,P067,Thyroid Profile,10-Jul-2023,Normal,750
+T0349,V0260,P067,Blood Glucose Fasting,10-Jul-2023,Normal,750
+T0350,V0260,P067,Complete Blood Count,10-Jul-2023,Normal,750
+T0351,V0261,P067,Chest X-Ray,06-Oct-2024,Normal,500
+T0352,V0261,P067,Thyroid Profile,06-Oct-2024,Abnormal,1200
+T0353,V0261,P067,Liver Function Test,06-Oct-2024,Normal,350
+T0354,V0262,P067,Complete Blood Count,17-Oct-2024,Normal,500
+T0355,V0263,P067,Lipid Profile,04-Nov-2024,Normal,500
+T0356,V0263,P067,Liver Function Test,04-Nov-2024,Abnormal,1000
+T0357,V0264,P068,Lipid Profile,27-Apr-2023,Normal,1000
+T0358,V0264,P068,Thyroid Profile,27-Apr-2023,Normal,200
+T0359,V0264,P068,HbA1c,27-Apr-2023,Normal,750
+T0360,V0266,P068,Liver Function Test,26-Sep-2023,Normal,200
+T0361,V0266,P068,Thyroid Profile,26-Sep-2023,Normal,350
+T0362,V0267,P068,Urine Routine,13-Apr-2024,Abnormal,350
+T0363,V0267,P068,Complete Blood Count,13-Apr-2024,Normal,750
+T0364,V0267,P068,Complete Blood Count,13-Apr-2024,Normal,750
+T0365,V0269,P069,ECG,27-Aug-2024,Normal,1200
+T0366,V0269,P069,ECG,27-Aug-2024,Normal,750
+T0367,V0270,P069,Chest X-Ray,21-Sep-2024,Normal,350
+T0368,V0270,P069,Liver Function Test,21-Sep-2024,Abnormal,350
+T0369,V0270,P069,Blood Glucose Fasting,21-Sep-2024,Normal,200
+T0370,V0271,P069,ECG,19-Nov-2024,Abnormal,1000
+T0371,V0271,P069,Complete Blood Count,19-Nov-2024,Normal,750
+T0372,V0272,P070,Chest X-Ray,13-May-2024,Normal,350
+T0373,V0274,P070,Complete Blood Count,12-Oct-2024,Normal,1200
+T0374,V0274,P070,Kidney Function Test,12-Oct-2024,Abnormal,1000
+T0375,V0275,P071,Urine Routine,10-Jan-2023,Normal,1000
+T0376,V0275,P071,Thyroid Profile,10-Jan-2023,Normal,1200
+T0377,V0276,P071,Complete Blood Count,20-May-2023,Normal,1000
+T0378,V0276,P071,Kidney Function Test,20-May-2023,Normal,200
+T0379,V0277,P071,Complete Blood Count,19-Jul-2023,Normal,500
+T0380,V0277,P071,HbA1c,19-Jul-2023,Normal,1200
+T0381,V0278,P071,Lipid Profile,11-May-2024,Normal,500
+T0382,V0278,P071,Blood Glucose Fasting,11-May-2024,Abnormal,1200
+T0383,V0278,P071,Urine Routine,11-May-2024,Normal,1200
+T0384,V0279,P072,Kidney Function Test,03-Feb-2023,Normal,500
+T0385,V0279,P072,HbA1c,03-Feb-2023,Normal,1200
+T0386,V0279,P072,Complete Blood Count,03-Feb-2023,Normal,200
+T0387,V0280,P072,HbA1c,09-Oct-2023,Normal,200
+T0388,V0280,P072,HbA1c,09-Oct-2023,Normal,1200
+T0389,V0283,P073,Blood Glucose Fasting,12-Aug-2023,Normal,350
+T0390,V0283,P073,ECG,12-Aug-2023,Normal,200
+T0391,V0284,P073,Blood Glucose Fasting,11-Jan-2024,Abnormal,200
+T0392,V0285,P073,ECG,27-Mar-2024,Normal,350
+T0393,V0287,P073,Chest X-Ray,13-Jul-2024,Abnormal,1200
+T0394,V0287,P073,Lipid Profile,13-Jul-2024,Normal,750
+T0395,V0287,P073,ECG,13-Jul-2024,Normal,1200
+T0396,V0288,P074,Complete Blood Count,23-May-2023,Abnormal,350
+T0397,V0288,P074,HbA1c,23-May-2023,Normal,1200
+T0398,V0289,P074,Kidney Function Test,19-Jun-2023,Normal,750
+T0399,V0289,P074,HbA1c,19-Jun-2023,Normal,1000
+T0400,V0289,P074,Liver Function Test,19-Jun-2023,Normal,1000
+T0401,V0290,P074,Liver Function Test,31-Jul-2023,Abnormal,350
+T0402,V0290,P074,Liver Function Test,31-Jul-2023,Normal,200
+T0403,V0291,P074,Lipid Profile,14-Mar-2024,Normal,1000
+T0404,V0291,P074,HbA1c,14-Mar-2024,Normal,500
+T0405,V0292,P074,Lipid Profile,22-Sep-2024,Normal,350
+T0406,V0293,P074,Urine Routine,09-Oct-2024,Normal,350
+T0407,V0294,P075,HbA1c,11-Sep-2023,Abnormal,1200
+T0408,V0294,P075,Kidney Function Test,11-Sep-2023,Abnormal,500
+T0409,V0295,P075,Lipid Profile,26-Nov-2023,Normal,1000
+T0410,V0295,P075,Complete Blood Count,26-Nov-2023,Normal,750
+T0411,V0300,P077,HbA1c,06-Apr-2023,Normal,500
+T0412,V0300,P077,Liver Function Test,06-Apr-2023,Normal,750
+T0413,V0300,P077,Urine Routine,06-Apr-2023,Normal,1200
+T0414,V0301,P077,ECG,14-Apr-2024,Normal,500
+T0415,V0301,P077,ECG,14-Apr-2024,Normal,200
+T0416,V0301,P077,HbA1c,14-Apr-2024,Abnormal,200
+T0417,V0302,P077,Thyroid Profile,18-Aug-2024,Normal,750
+T0418,V0302,P077,Kidney Function Test,18-Aug-2024,Normal,200
+T0419,V0303,P078,Thyroid Profile,19-Feb-2023,Normal,500
+T0420,V0304,P078,ECG,14-May-2023,Normal,1200
+T0421,V0306,P078,ECG,11-May-2024,Normal,500
+T0422,V0306,P078,HbA1c,11-May-2024,Normal,200
+T0423,V0306,P078,Kidney Function Test,11-May-2024,Normal,750
+T0424,V0307,P078,Kidney Function Test,02-Aug-2024,Normal,200
+T0425,V0307,P078,Kidney Function Test,02-Aug-2024,Abnormal,500
+T0426,V0310,P079,Chest X-Ray,14-Sep-2023,Normal,750
+T0427,V0310,P079,Chest X-Ray,14-Sep-2023,Abnormal,1200
+T0428,V0310,P079,Lipid Profile,14-Sep-2023,Normal,1000
+T0429,V0311,P079,ECG,16-Jan-2024,Abnormal,1000
+T0430,V0313,P080,Blood Glucose Fasting,31-Mar-2024,Normal,200
+T0431,V0313,P080,Liver Function Test,31-Mar-2024,Normal,750
+T0432,V0313,P080,ECG,31-Mar-2024,Abnormal,1200
+T0433,V0314,P080,Chest X-Ray,15-Jun-2024,Abnormal,500
+T0434,V0315,P080,Liver Function Test,27-Nov-2024,Normal,1000
+T0435,V0316,P081,Thyroid Profile,15-Apr-2023,Normal,200
+T0436,V0316,P081,Lipid Profile,15-Apr-2023,Normal,500
+T0437,V0316,P081,ECG,15-Apr-2023,Normal,200
+T0438,V0319,P082,Thyroid Profile,27-Jun-2024,Normal,200
+T0439,V0319,P082,Liver Function Test,27-Jun-2024,Abnormal,750
+T0440,V0321,P083,ECG,07-May-2023,Normal,1000
+T0441,V0321,P083,Liver Function Test,07-May-2023,Normal,1200
+T0442,V0321,P083,Blood Glucose Fasting,07-May-2023,Normal,500
+T0443,V0322,P083,Liver Function Test,24-May-2023,Abnormal,350
+T0444,V0322,P083,Lipid Profile,24-May-2023,Normal,500
+T0445,V0322,P083,Lipid Profile,24-May-2023,Normal,500
+T0446,V0323,P084,Kidney Function Test,28-Mar-2023,Normal,200
+T0447,V0323,P084,HbA1c,28-Mar-2023,Abnormal,1200
+T0448,V0325,P084,Blood Glucose Fasting,20-Jul-2024,Abnormal,1000
+T0449,V0325,P084,HbA1c,20-Jul-2024,Normal,500
+T0450,V0325,P084,Liver Function Test,20-Jul-2024,Normal,500
+T0451,V0328,P085,Lipid Profile,31-Jan-2024,Normal,200
+T0452,V0328,P085,Liver Function Test,31-Jan-2024,Abnormal,500
+T0453,V0328,P085,Chest X-Ray,31-Jan-2024,Normal,500
+T0454,V0330,P086,Thyroid Profile,26-Jun-2023,Abnormal,350
+T0455,V0332,P086,HbA1c,06-Mar-2024,Normal,1000
+T0456,V0332,P086,Blood Glucose Fasting,06-Mar-2024,Normal,750
+T0457,V0332,P086,Blood Glucose Fasting,06-Mar-2024,Normal,200
+T0458,V0335,P086,Lipid Profile,30-Nov-2024,Normal,750
+T0459,V0335,P086,Urine Routine,30-Nov-2024,Normal,1000
+T0460,V0337,P087,Blood Glucose Fasting,05-Feb-2024,Normal,350
+T0461,V0337,P087,Lipid Profile,05-Feb-2024,Abnormal,1200
+T0462,V0337,P087,Lipid Profile,05-Feb-2024,Abnormal,350
+T0463,V0338,P087,Blood Glucose Fasting,03-Jul-2024,Normal,200
+T0464,V0339,P088,Complete Blood Count,26-Feb-2023,Normal,350
+T0465,V0339,P088,HbA1c,26-Feb-2023,Abnormal,1000
+T0466,V0340,P088,Complete Blood Count,13-Nov-2023,Normal,200
+T0467,V0341,P088,Blood Glucose Fasting,15-Sep-2024,Normal,1000
+T0468,V0342,P088,Kidney Function Test,18-Sep-2024,Abnormal,200
+T0469,V0343,P088,Urine Routine,13-Nov-2024,Normal,500
+T0470,V0343,P088,HbA1c,13-Nov-2024,Normal,1200
+T0471,V0343,P088,HbA1c,13-Nov-2024,Normal,1000
+T0472,V0344,P089,HbA1c,07-Mar-2023,Normal,350
+T0473,V0344,P089,Liver Function Test,07-Mar-2023,Normal,350
+T0474,V0344,P089,HbA1c,07-Mar-2023,Normal,200
+T0475,V0346,P089,ECG,06-Oct-2023,Normal,500
+T0476,V0348,P089,Lipid Profile,30-Dec-2024,Normal,500
+T0477,V0348,P089,Chest X-Ray,30-Dec-2024,Normal,350
+T0478,V0348,P089,Chest X-Ray,30-Dec-2024,Normal,200
+T0479,V0350,P090,Lipid Profile,08-Sep-2023,Abnormal,750
+T0480,V0350,P090,Liver Function Test,08-Sep-2023,Normal,1000
+T0481,V0352,P091,Liver Function Test,12-Sep-2023,Abnormal,750
+T0482,V0352,P091,Liver Function Test,12-Sep-2023,Normal,1200
+T0483,V0354,P091,Chest X-Ray,26-Nov-2023,Normal,350
+T0484,V0354,P091,ECG,26-Nov-2023,Normal,1200
+T0485,V0354,P091,Complete Blood Count,26-Nov-2023,Normal,1200
+T0486,V0355,P091,HbA1c,02-Mar-2024,Normal,1200
+T0487,V0357,P092,Urine Routine,25-Jul-2023,Normal,200
+T0488,V0357,P092,Lipid Profile,25-Jul-2023,Normal,200
+T0489,V0358,P092,Urine Routine,26-Oct-2023,Normal,750
+T0490,V0359,P092,Liver Function Test,13-Jan-2024,Normal,1200
+T0491,V0359,P092,Urine Routine,13-Jan-2024,Normal,500
+T0492,V0363,P093,Chest X-Ray,10-Dec-2023,Normal,750
+T0493,V0363,P093,Lipid Profile,10-Dec-2023,Normal,750
+T0494,V0363,P093,Liver Function Test,10-Dec-2023,Abnormal,750
+T0495,V0364,P093,Complete Blood Count,21-Dec-2023,Normal,200
+T0496,V0364,P093,Blood Glucose Fasting,21-Dec-2023,Normal,750
+T0497,V0364,P093,Lipid Profile,21-Dec-2023,Normal,750
+T0498,V0365,P093,Urine Routine,13-Oct-2024,Abnormal,1000
+T0499,V0365,P093,Blood Glucose Fasting,13-Oct-2024,Abnormal,1200
+T0500,V0369,P095,HbA1c,31-Aug-2023,Normal,500
+T0501,V0369,P095,HbA1c,31-Aug-2023,Normal,1000
+T0502,V0369,P095,Complete Blood Count,31-Aug-2023,Abnormal,750
+T0503,V0371,P095,Chest X-Ray,26-Oct-2023,Normal,750
+T0504,V0371,P095,Complete Blood Count,26-Oct-2023,Normal,350
+T0505,V0372,P096,Lipid Profile,22-Apr-2023,Normal,750
+T0506,V0372,P096,Liver Function Test,22-Apr-2023,Normal,1200
+T0507,V0373,P096,ECG,09-Jun-2023,Normal,1200
+T0508,V0374,P096,ECG,21-Aug-2024,Normal,1000
+T0509,V0374,P096,HbA1c,21-Aug-2024,Normal,200
+T0510,V0374,P096,ECG,21-Aug-2024,Normal,1000
+T0511,V0376,P097,Liver Function Test,03-May-2023,Normal,500
+T0512,V0376,P097,Urine Routine,03-May-2023,Abnormal,200
+T0513,V0377,P097,Urine Routine,29-Sep-2023,Normal,200
+T0514,V0377,P097,Kidney Function Test,29-Sep-2023,Normal,750
+T0515,V0378,P097,Chest X-Ray,19-Apr-2024,Normal,500
+T0516,V0378,P097,Thyroid Profile,19-Apr-2024,Abnormal,350
+T0517,V0379,P098,Blood Glucose Fasting,01-Feb-2023,Normal,500
+T0518,V0379,P098,Lipid Profile,01-Feb-2023,Abnormal,200
+T0519,V0380,P098,Chest X-Ray,20-Feb-2023,Normal,1000
+T0520,V0381,P098,ECG,28-Jun-2023,Abnormal,1000
+T0521,V0381,P098,Kidney Function Test,28-Jun-2023,Abnormal,750
+T0522,V0382,P098,ECG,24-Sep-2023,Normal,200
+T0523,V0382,P098,Thyroid Profile,24-Sep-2023,Normal,500
+T0524,V0383,P098,Urine Routine,03-Nov-2023,Normal,500
+T0525,V0383,P098,Chest X-Ray,03-Nov-2023,Normal,350
+T0526,V0383,P098,Blood Glucose Fasting,03-Nov-2023,Normal,1000
+T0527,V0384,P098,Urine Routine,24-Nov-2024,Abnormal,750
+T0528,V0384,P098,Urine Routine,24-Nov-2024,Normal,1200
+T0529,V0387,P099,Blood Glucose Fasting,18-Mar-2023,Normal,1000
+T0530,V0387,P099,ECG,18-Mar-2023,Normal,750
+T0531,V0387,P099,Blood Glucose Fasting,18-Mar-2023,Abnormal,1200
+T0532,V0389,P099,HbA1c,23-Sep-2023,Normal,500
+T0533,V0389,P099,Chest X-Ray,23-Sep-2023,Abnormal,500
+T0534,V0390,P099,HbA1c,23-Oct-2024,Normal,350
+T0535,V0390,P099,HbA1c,23-Oct-2024,Normal,350
+T0536,V0391,P100,ECG,05-Feb-2023,Normal,500
+T0537,V0393,P100,Chest X-Ray,01-Apr-2024,Normal,1000
+T0538,V0393,P100,Complete Blood Count,01-Apr-2024,Normal,1000
+T0539,V0393,P100,ECG,01-Apr-2024,Abnormal,350
+T0540,V0394,P100,Liver Function Test,20-Sep-2024,Normal,750
+T0541,V0394,P100,Blood Glucose Fasting,20-Sep-2024,Normal,1200
+T0542,V0394,P100,Chest X-Ray,20-Sep-2024,Abnormal,500
+T0543,V0396,P101,Thyroid Profile,03-Jan-2024,Normal,750
+T0544,V0396,P101,Lipid Profile,03-Jan-2024,Abnormal,350
+T0545,V0397,P101,HbA1c,27-Jan-2024,Normal,750
+T0546,V0397,P101,Complete Blood Count,27-Jan-2024,Normal,350
+T0547,V0398,P101,Liver Function Test,06-May-2024,Abnormal,1200
+T0548,V0399,P101,ECG,11-Jul-2024,Normal,200
+T0549,V0399,P101,Blood Glucose Fasting,11-Jul-2024,Abnormal,500
+T0550,V0399,P101,Blood Glucose Fasting,11-Jul-2024,Normal,750
+T0551,V0403,P102,Thyroid Profile,03-Nov-2024,Normal,200
+T0552,V0403,P102,HbA1c,03-Nov-2024,Normal,200
+T0553,V0403,P102,Urine Routine,03-Nov-2024,Normal,1000
+T0554,V0404,P103,Blood Glucose Fasting,22-Nov-2023,Abnormal,500
+T0555,V0405,P103,Thyroid Profile,29-Aug-2024,Normal,750
+T0556,V0405,P103,Blood Glucose Fasting,29-Aug-2024,Abnormal,350
+T0557,V0405,P103,Liver Function Test,29-Aug-2024,Abnormal,750
+T0558,V0406,P103,HbA1c,15-Dec-2024,Abnormal,500
+T0559,V0406,P103,Blood Glucose Fasting,15-Dec-2024,Normal,500
+T0560,V0406,P103,ECG,15-Dec-2024,Normal,1200
+T0561,V0407,P104,Lipid Profile,08-Feb-2023,Normal,500
+T0562,V0407,P104,Kidney Function Test,08-Feb-2023,Normal,500
+T0563,V0408,P104,Complete Blood Count,03-Apr-2023,Abnormal,1200
+T0564,V0408,P104,Thyroid Profile,03-Apr-2023,Normal,500
+T0565,V0408,P104,Liver Function Test,03-Apr-2023,Normal,1200
+T0566,V0410,P104,Thyroid Profile,17-May-2024,Abnormal,750
+T0567,V0410,P104,Chest X-Ray,17-May-2024,Normal,500
+T0568,V0410,P104,Thyroid Profile,17-May-2024,Normal,500
+T0569,V0411,P105,Kidney Function Test,23-Jan-2023,Normal,1200
+T0570,V0412,P105,Blood Glucose Fasting,02-Mar-2023,Abnormal,750
+T0571,V0413,P105,Kidney Function Test,01-Jun-2023,Normal,1200
+T0572,V0413,P105,Blood Glucose Fasting,01-Jun-2023,Normal,350
+T0573,V0415,P106,HbA1c,23-Mar-2024,Normal,1200
+T0574,V0415,P106,Complete Blood Count,23-Mar-2024,Normal,200
+T0575,V0416,P106,Lipid Profile,13-May-2024,Normal,200
+T0576,V0417,P106,Urine Routine,16-Oct-2024,Normal,200
+T0577,V0417,P106,Thyroid Profile,16-Oct-2024,Abnormal,1000
+T0578,V0417,P106,Lipid Profile,16-Oct-2024,Normal,1000
+T0579,V0420,P107,Lipid Profile,29-Oct-2023,Normal,500
+T0580,V0420,P107,Urine Routine,29-Oct-2023,Abnormal,500
+T0581,V0422,P108,Chest X-Ray,21-Mar-2023,Normal,750
+T0582,V0422,P108,Urine Routine,21-Mar-2023,Normal,350
+T0583,V0423,P108,Urine Routine,01-Sep-2023,Normal,1200
+T0584,V0424,P108,Thyroid Profile,24-Nov-2023,Normal,500
+T0585,V0426,P109,Urine Routine,19-Feb-2023,Normal,500
+T0586,V0426,P109,Kidney Function Test,19-Feb-2023,Abnormal,350
+T0587,V0428,P110,ECG,14-Apr-2023,Normal,1200
+T0588,V0428,P110,Thyroid Profile,14-Apr-2023,Normal,1200
+T0589,V0428,P110,Liver Function Test,14-Apr-2023,Abnormal,500
+T0590,V0430,P110,Urine Routine,05-May-2024,Normal,350
+T0591,V0430,P110,Liver Function Test,05-May-2024,Normal,1200
+T0592,V0432,P110,Complete Blood Count,28-Oct-2024,Normal,500
+T0593,V0432,P110,Thyroid Profile,28-Oct-2024,Normal,1000
+T0594,V0433,P110,ECG,04-Dec-2024,Normal,200
+T0595,V0434,P111,Chest X-Ray,17-Mar-2024,Normal,1200
+T0596,V0435,P111,Urine Routine,31-Oct-2024,Normal,500
+T0597,V0435,P111,HbA1c,31-Oct-2024,Abnormal,200
+T0598,V0436,P112,Kidney Function Test,29-Sep-2023,Normal,1000
+T0599,V0439,P112,Complete Blood Count,07-Nov-2024,Normal,500
+T0600,V0439,P112,Chest X-Ray,07-Nov-2024,Normal,500
+T0601,V0439,P112,Kidney Function Test,07-Nov-2024,Normal,350
+T0602,V0441,P113,Lipid Profile,25-Mar-2023,Abnormal,1000
+T0603,V0441,P113,Kidney Function Test,25-Mar-2023,Normal,750
+T0604,V0441,P113,Kidney Function Test,25-Mar-2023,Abnormal,1200
+T0605,V0442,P113,Kidney Function Test,29-Apr-2023,Abnormal,200
+T0606,V0444,P113,Chest X-Ray,29-Apr-2024,Normal,500
+T0607,V0444,P113,Liver Function Test,29-Apr-2024,Normal,1000
+T0608,V0447,P115,Kidney Function Test,29-Mar-2023,Normal,1200
+T0609,V0447,P115,Lipid Profile,29-Mar-2023,Normal,1000
+T0610,V0451,P116,Lipid Profile,19-Jun-2024,Abnormal,200
+T0611,V0452,P116,Chest X-Ray,02-Jul-2024,Normal,200
+T0612,V0455,P117,HbA1c,30-Nov-2024,Normal,750
+T0613,V0455,P117,Blood Glucose Fasting,30-Nov-2024,Normal,1200
+T0614,V0457,P118,Liver Function Test,30-Nov-2023,Abnormal,350
+T0615,V0461,P119,Urine Routine,29-Apr-2024,Normal,200
+T0616,V0461,P119,Urine Routine,29-Apr-2024,Normal,350
+T0617,V0461,P119,Blood Glucose Fasting,29-Apr-2024,Normal,350
+T0618,V0465,P119,Blood Glucose Fasting,01-Nov-2024,Normal,750
+T0619,V0465,P119,Blood Glucose Fasting,01-Nov-2024,Normal,500
+T0620,V0465,P119,Blood Glucose Fasting,01-Nov-2024,Abnormal,750
+T0621,V0468,P120,Complete Blood Count,18-May-2024,Normal,500
+T0622,V0468,P120,Urine Routine,18-May-2024,Normal,750
+T0623,V0469,P120,Urine Routine,13-Dec-2024,Normal,350
+T0624,V0469,P120,Complete Blood Count,13-Dec-2024,Abnormal,1200
+T0625,V0469,P120,Complete Blood Count,13-Dec-2024,Abnormal,1200
+T0626,V0470,P121,Chest X-Ray,27-Feb-2023,Normal,500
+T0627,V0470,P121,Chest X-Ray,27-Feb-2023,Abnormal,200
+T0628,V0470,P121,Thyroid Profile,27-Feb-2023,Abnormal,350
+T0629,V0471,P121,Lipid Profile,18-Jan-2024,Abnormal,200
+T0630,V0471,P121,Chest X-Ray,18-Jan-2024,Abnormal,1200
+T0631,V0473,P121,Kidney Function Test,11-Jun-2024,Normal,1200
+T0632,V0473,P121,Kidney Function Test,11-Jun-2024,Abnormal,1000
+T0633,V0473,P121,ECG,11-Jun-2024,Abnormal,750
+T0634,V0474,P121,Blood Glucose Fasting,12-Jun-2024,Normal,750
+T0635,V0474,P121,Urine Routine,12-Jun-2024,Normal,350
+T0636,V0474,P121,Chest X-Ray,12-Jun-2024,Normal,200
+T0637,V0475,P122,Thyroid Profile,23-Jul-2023,Normal,1200
+T0638,V0475,P122,Lipid Profile,23-Jul-2023,Normal,750
+T0639,V0476,P122,Liver Function Test,08-Oct-2023,Normal,750
+T0640,V0476,P122,ECG,08-Oct-2023,Normal,500
+T0641,V0476,P122,Lipid Profile,08-Oct-2023,Abnormal,1200
+T0642,V0479,P123,HbA1c,03-Apr-2023,Normal,200
+T0643,V0479,P123,HbA1c,03-Apr-2023,Normal,200
+T0644,V0480,P123,Urine Routine,17-Jun-2023,Abnormal,500
+T0645,V0480,P123,Urine Routine,17-Jun-2023,Normal,200
+T0646,V0482,P123,Lipid Profile,19-Dec-2023,Normal,350
+T0647,V0482,P123,Complete Blood Count,19-Dec-2023,Normal,200
+T0648,V0482,P123,Liver Function Test,19-Dec-2023,Normal,500
+T0649,V0483,P123,ECG,25-Dec-2023,Normal,1000
+T0650,V0483,P123,Kidney Function Test,25-Dec-2023,Normal,350
+T0651,V0484,P123,Urine Routine,06-Dec-2024,Normal,500
+T0652,V0486,P124,Chest X-Ray,16-Sep-2023,Abnormal,200
+T0653,V0486,P124,ECG,16-Sep-2023,Abnormal,750
+T0654,V0486,P124,Urine Routine,16-Sep-2023,Normal,1200
+T0655,V0487,P125,Urine Routine,12-Aug-2023,Normal,500
+T0656,V0487,P125,Chest X-Ray,12-Aug-2023,Normal,500
+T0657,V0487,P125,Lipid Profile,12-Aug-2023,Abnormal,200
+T0658,V0488,P125,Thyroid Profile,16-Sep-2023,Normal,200
+T0659,V0489,P125,Thyroid Profile,24-Dec-2023,Abnormal,750
+T0660,V0489,P125,HbA1c,24-Dec-2023,Normal,350
+T0661,V0489,P125,ECG,24-Dec-2023,Abnormal,350
+T0662,V0490,P125,Lipid Profile,15-Apr-2024,Abnormal,1200
+T0663,V0493,P126,Thyroid Profile,12-Jul-2023,Normal,500
+T0664,V0493,P126,Chest X-Ray,12-Jul-2023,Normal,200
+T0665,V0494,P126,Chest X-Ray,04-Sep-2023,Normal,750
+T0666,V0497,P127,Complete Blood Count,02-Feb-2024,Normal,750
+T0667,V0497,P127,HbA1c,02-Feb-2024,Normal,1000
+T0668,V0497,P127,ECG,02-Feb-2024,Normal,350
+T0669,V0499,P127,HbA1c,20-Aug-2024,Normal,200
+T0670,V0499,P127,Chest X-Ray,20-Aug-2024,Abnormal,750
+T0671,V0500,P127,Kidney Function Test,26-Dec-2024,Normal,750
+T0672,V0500,P127,Complete Blood Count,26-Dec-2024,Normal,350
+T0673,V0500,P127,Thyroid Profile,26-Dec-2024,Abnormal,750
+T0674,V0501,P128,Urine Routine,02-Apr-2023,Normal,1200
+T0675,V0502,P128,ECG,07-Jul-2023,Normal,350
+T0676,V0502,P128,Chest X-Ray,07-Jul-2023,Normal,750
+T0677,V0502,P128,Kidney Function Test,07-Jul-2023,Normal,750
+T0678,V0505,P128,Blood Glucose Fasting,01-Nov-2024,Normal,1200
+T0679,V0505,P128,Lipid Profile,01-Nov-2024,Normal,350
+T0680,V0506,P128,Chest X-Ray,27-Nov-2024,Abnormal,750
+T0681,V0506,P128,Thyroid Profile,27-Nov-2024,Normal,1000
+T0682,V0507,P129,Liver Function Test,21-May-2023,Normal,500
+T0683,V0509,P130,Blood Glucose Fasting,24-Mar-2023,Abnormal,500
+T0684,V0509,P130,Urine Routine,24-Mar-2023,Normal,350
+T0685,V0509,P130,Thyroid Profile,24-Mar-2023,Abnormal,750
+T0686,V0510,P130,Complete Blood Count,04-Jul-2023,Normal,1000
+T0687,V0510,P130,Lipid Profile,04-Jul-2023,Abnormal,1200
+T0688,V0512,P130,ECG,14-May-2024,Normal,750
+T0689,V0517,P131,Complete Blood Count,03-May-2024,Normal,1000
+T0690,V0518,P131,Thyroid Profile,10-Oct-2024,Abnormal,500
+T0691,V0518,P131,Liver Function Test,10-Oct-2024,Abnormal,1200
+T0692,V0518,P131,HbA1c,10-Oct-2024,Normal,750
+T0693,V0520,P132,Lipid Profile,02-Nov-2023,Normal,200
+T0694,V0520,P132,ECG,02-Nov-2023,Normal,750
+T0695,V0520,P132,Complete Blood Count,02-Nov-2023,Normal,350
+T0696,V0522,P133,Blood Glucose Fasting,03-Jan-2024,Normal,500
+T0697,V0522,P133,Chest X-Ray,03-Jan-2024,Normal,500
+T0698,V0523,P133,HbA1c,16-May-2024,Abnormal,750
+T0699,V0525,P134,Chest X-Ray,26-Aug-2024,Normal,750
+T0700,V0525,P134,HbA1c,26-Aug-2024,Normal,1200
+T0701,V0526,P135,Complete Blood Count,19-Feb-2023,Normal,1200
+T0702,V0529,P135,Lipid Profile,30-Sep-2024,Normal,750
+T0703,V0529,P135,Complete Blood Count,30-Sep-2024,Abnormal,1200
+T0704,V0531,P136,HbA1c,04-Oct-2023,Abnormal,500
+T0705,V0531,P136,HbA1c,04-Oct-2023,Normal,500
+T0706,V0531,P136,Kidney Function Test,04-Oct-2023,Normal,500
+T0707,V0532,P136,Urine Routine,16-Jun-2024,Normal,350
+T0708,V0532,P136,ECG,16-Jun-2024,Normal,1200
+T0709,V0533,P136,Urine Routine,08-Nov-2024,Normal,1200
+T0710,V0533,P136,Kidney Function Test,08-Nov-2024,Normal,1200
+T0711,V0533,P136,Thyroid Profile,08-Nov-2024,Normal,500
+T0712,V0534,P136,Lipid Profile,09-Nov-2024,Normal,1000
+T0713,V0534,P136,Liver Function Test,09-Nov-2024,Normal,350
+T0714,V0534,P136,HbA1c,09-Nov-2024,Abnormal,500
+T0715,V0535,P137,Complete Blood Count,10-Feb-2023,Abnormal,1000
+T0716,V0535,P137,Thyroid Profile,10-Feb-2023,Normal,500
+T0717,V0535,P137,HbA1c,10-Feb-2023,Normal,200
+T0718,V0538,P137,Complete Blood Count,23-May-2024,Normal,1200
+T0719,V0538,P137,ECG,23-May-2024,Normal,500
+T0720,V0538,P137,Complete Blood Count,23-May-2024,Normal,750
+T0721,V0539,P137,Urine Routine,15-Jul-2024,Normal,1000
+T0722,V0544,P139,Urine Routine,24-Jun-2023,Abnormal,1200
+T0723,V0544,P139,Chest X-Ray,24-Jun-2023,Abnormal,1000
+T0724,V0546,P139,Kidney Function Test,10-Nov-2024,Normal,750
+T0725,V0546,P139,Chest X-Ray,10-Nov-2024,Abnormal,750
+T0726,V0546,P139,Complete Blood Count,10-Nov-2024,Abnormal,750
+T0727,V0548,P140,HbA1c,15-Feb-2024,Abnormal,750
+T0728,V0548,P140,HbA1c,15-Feb-2024,Normal,750
+T0729,V0550,P141,ECG,16-May-2023,Normal,1200
+T0730,V0550,P141,ECG,16-May-2023,Normal,1200
+T0731,V0550,P141,Lipid Profile,16-May-2023,Normal,350
+T0732,V0551,P141,Lipid Profile,20-Jun-2023,Normal,1200
+T0733,V0551,P141,HbA1c,20-Jun-2023,Normal,200
+T0734,V0553,P141,HbA1c,13-Dec-2024,Normal,500
+T0735,V0555,P142,Kidney Function Test,06-Mar-2023,Abnormal,1000
+T0736,V0555,P142,HbA1c,06-Mar-2023,Abnormal,350
+T0737,V0556,P142,Liver Function Test,26-Apr-2023,Normal,500
+T0738,V0556,P142,Lipid Profile,26-Apr-2023,Normal,350
+T0739,V0558,P142,Thyroid Profile,27-Mar-2024,Normal,350
+T0740,V0558,P142,ECG,27-Mar-2024,Normal,200
+T0741,V0559,P143,Complete Blood Count,12-Jan-2023,Abnormal,750
+T0742,V0559,P143,Liver Function Test,12-Jan-2023,Normal,1000
+T0743,V0560,P143,ECG,25-Feb-2023,Normal,1200
+T0744,V0560,P143,Lipid Profile,25-Feb-2023,Normal,350
+T0745,V0561,P143,ECG,10-Jun-2023,Normal,350
+T0746,V0561,P143,Kidney Function Test,10-Jun-2023,Normal,200
+T0747,V0564,P143,Kidney Function Test,20-Oct-2024,Normal,1000
+T0748,V0565,P144,Liver Function Test,02-May-2023,Normal,1200
+T0749,V0565,P144,Lipid Profile,02-May-2023,Abnormal,1200
+T0750,V0565,P144,Liver Function Test,02-May-2023,Abnormal,1000
+T0751,V0566,P144,Thyroid Profile,20-Nov-2023,Normal,1000
+T0752,V0566,P144,Complete Blood Count,20-Nov-2023,Normal,1000
+T0753,V0566,P144,ECG,20-Nov-2023,Normal,1000
+T0754,V0568,P144,Complete Blood Count,24-May-2024,Abnormal,500
+T0755,V0568,P144,Thyroid Profile,24-May-2024,Normal,1200
+T0756,V0568,P144,Urine Routine,24-May-2024,Normal,750
+T0757,V0569,P144,Chest X-Ray,31-Oct-2024,Normal,1000
+T0758,V0569,P144,Complete Blood Count,31-Oct-2024,Abnormal,500
+T0759,V0569,P144,Chest X-Ray,31-Oct-2024,Normal,200
+T0760,V0571,P145,Blood Glucose Fasting,29-Apr-2024,Abnormal,1000
+T0761,V0571,P145,Lipid Profile,29-Apr-2024,Abnormal,350
+T0762,V0572,P145,Chest X-Ray,27-Jul-2024,Abnormal,1200
+T0763,V0573,P145,Lipid Profile,06-Sep-2024,Normal,200
+T0764,V0573,P145,Liver Function Test,06-Sep-2024,Normal,750
+T0765,V0573,P145,Lipid Profile,06-Sep-2024,Abnormal,750
+T0766,V0575,P146,Thyroid Profile,20-Apr-2023,Abnormal,1000
+T0767,V0576,P146,HbA1c,12-Jul-2023,Normal,750
+T0768,V0576,P146,Liver Function Test,12-Jul-2023,Normal,200
+T0769,V0577,P146,ECG,20-Jul-2023,Normal,200
+T0770,V0577,P146,Thyroid Profile,20-Jul-2023,Normal,200
+T0771,V0577,P146,Urine Routine,20-Jul-2023,Abnormal,1200
+T0772,V0578,P146,Lipid Profile,18-Sep-2023,Normal,500
+T0773,V0578,P146,ECG,18-Sep-2023,Normal,200
+T0774,V0578,P146,HbA1c,18-Sep-2023,Normal,350
+T0775,V0580,P147,Thyroid Profile,19-Feb-2023,Normal,1000
+T0776,V0580,P147,HbA1c,19-Feb-2023,Normal,750
+T0777,V0580,P147,ECG,19-Feb-2023,Abnormal,1000
+T0778,V0581,P147,ECG,27-Jun-2024,Abnormal,500
+T0779,V0582,P148,Kidney Function Test,17-Apr-2023,Normal,1200
+T0780,V0582,P148,HbA1c,17-Apr-2023,Abnormal,500
+T0781,V0582,P148,HbA1c,17-Apr-2023,Abnormal,1000
+T0782,V0583,P148,Blood Glucose Fasting,12-May-2023,Normal,350
+T0783,V0587,P148,Kidney Function Test,04-Nov-2024,Normal,1200
+T0784,V0587,P148,Liver Function Test,04-Nov-2024,Normal,1200
+T0785,V0587,P148,Thyroid Profile,04-Nov-2024,Normal,1200
+T0786,V0589,P149,Kidney Function Test,03-Aug-2023,Normal,200
+T0787,V0589,P149,Lipid Profile,03-Aug-2023,Normal,1200
+T0788,V0591,P149,Lipid Profile,25-Oct-2023,Normal,750
+T0789,V0592,P149,Chest X-Ray,01-Oct-2024,Normal,1000
+T0790,V0592,P149,Blood Glucose Fasting,01-Oct-2024,Abnormal,1000
+T0791,V0592,P149,ECG,01-Oct-2024,Abnormal,1200
+T0792,V0593,P149,Kidney Function Test,09-Oct-2024,Normal,750
+T0793,V0593,P149,Complete Blood Count,09-Oct-2024,Abnormal,200
+T0794,V0594,P150,Thyroid Profile,14-Jan-2023,Normal,1200
+T0795,V0595,P150,Kidney Function Test,26-Jan-2023,Normal,350
+T0796,V0595,P150,Urine Routine,26-Jan-2023,Abnormal,1200
+T0797,V0596,P150,ECG,20-Apr-2023,Abnormal,500
+T0798,V0596,P150,ECG,20-Apr-2023,Abnormal,1200
+T0799,V0596,P150,Thyroid Profile,20-Apr-2023,Normal,200
+T0800,V0597,P150,Liver Function Test,26-Jan-2024,Normal,1000
+T0801,V0597,P150,Lipid Profile,26-Jan-2024,Normal,1000
+T0802,V0597,P150,Urine Routine,26-Jan-2024,Abnormal,1200
+T0803,V0599,P151,Blood Glucose Fasting,01-Sep-2023,Normal,350
+T0804,V0600,P151,HbA1c,22-Oct-2023,Normal,1200
+T0805,V0600,P151,Thyroid Profile,22-Oct-2023,Normal,1200
+T0806,V0600,P151,HbA1c,22-Oct-2023,Abnormal,1000
+T0807,V0601,P151,Complete Blood Count,03-Feb-2024,Normal,750
+T0808,V0601,P151,Complete Blood Count,03-Feb-2024,Normal,500
+T0809,V0601,P151,Chest X-Ray,03-Feb-2024,Normal,500
+T0810,V0602,P151,Kidney Function Test,07-Jun-2024,Normal,1000
+T0811,V0602,P151,Thyroid Profile,07-Jun-2024,Normal,200
+T0812,V0602,P151,Chest X-Ray,07-Jun-2024,Abnormal,1000
+T0813,V0603,P151,Kidney Function Test,10-Dec-2024,Normal,200
+T0814,V0607,P152,Blood Glucose Fasting,04-Apr-2024,Normal,350
+T0815,V0607,P152,Kidney Function Test,04-Apr-2024,Abnormal,500
+T0816,V0607,P152,Blood Glucose Fasting,04-Apr-2024,Abnormal,200
+T0817,V0608,P153,Kidney Function Test,06-Jan-2023,Normal,500
+T0818,V0609,P153,Kidney Function Test,19-Sep-2023,Abnormal,200
+T0819,V0609,P153,HbA1c,19-Sep-2023,Normal,350
+T0820,V0612,P154,Urine Routine,22-Nov-2023,Normal,200
+T0821,V0613,P154,Chest X-Ray,02-Jan-2024,Normal,500
+T0822,V0617,P155,Urine Routine,04-Sep-2023,Abnormal,1200
+T0823,V0617,P155,Blood Glucose Fasting,04-Sep-2023,Normal,1200
+T0824,V0618,P155,Chest X-Ray,01-Apr-2024,Abnormal,750
+T0825,V0619,P155,Urine Routine,20-Sep-2024,Abnormal,1200
+T0826,V0619,P155,ECG,20-Sep-2024,Normal,750
+T0827,V0620,P155,Urine Routine,19-Oct-2024,Normal,200
+T0828,V0620,P155,Complete Blood Count,19-Oct-2024,Normal,750
+T0829,V0621,P156,Blood Glucose Fasting,14-Feb-2023,Abnormal,200
+T0830,V0621,P156,Blood Glucose Fasting,14-Feb-2023,Normal,1000
+T0831,V0621,P156,Thyroid Profile,14-Feb-2023,Normal,1000
+T0832,V0622,P156,Chest X-Ray,17-Jul-2023,Abnormal,750
+T0833,V0622,P156,ECG,17-Jul-2023,Normal,350
+T0834,V0622,P156,Complete Blood Count,17-Jul-2023,Abnormal,200
+T0835,V0623,P156,Kidney Function Test,31-Oct-2023,Normal,500
+T0836,V0623,P156,HbA1c,31-Oct-2023,Normal,350
+T0837,V0623,P156,Liver Function Test,31-Oct-2023,Abnormal,1000
+T0838,V0624,P156,HbA1c,01-Apr-2024,Normal,1000
+T0839,V0624,P156,Lipid Profile,01-Apr-2024,Normal,200
+T0840,V0625,P156,Chest X-Ray,13-May-2024,Normal,500
+T0841,V0625,P156,Thyroid Profile,13-May-2024,Abnormal,1200
+T0842,V0625,P156,Blood Glucose Fasting,13-May-2024,Normal,500
+T0843,V0626,P156,ECG,29-Oct-2024,Normal,1000
+T0844,V0626,P156,Urine Routine,29-Oct-2024,Normal,1000
+T0845,V0628,P157,Blood Glucose Fasting,25-Feb-2023,Normal,750
+T0846,V0628,P157,Complete Blood Count,25-Feb-2023,Normal,750
+T0847,V0629,P157,Thyroid Profile,17-Mar-2023,Normal,750
+T0848,V0630,P157,Kidney Function Test,31-Mar-2023,Normal,1200
+T0849,V0631,P157,Complete Blood Count,06-Dec-2023,Abnormal,500
+T0850,V0631,P157,Kidney Function Test,06-Dec-2023,Abnormal,200
+T0851,V0632,P158,Thyroid Profile,16-Feb-2023,Abnormal,1200
+T0852,V0633,P158,Complete Blood Count,06-Mar-2023,Abnormal,350
+T0853,V0633,P158,Lipid Profile,06-Mar-2023,Abnormal,350
+T0854,V0636,P158,Thyroid Profile,22-Aug-2024,Abnormal,200
+T0855,V0636,P158,Liver Function Test,22-Aug-2024,Abnormal,200
+T0856,V0636,P158,Lipid Profile,22-Aug-2024,Abnormal,750
+T0857,V0639,P159,Thyroid Profile,25-Oct-2024,Normal,500
+T0858,V0647,P161,Lipid Profile,12-May-2023,Normal,350
+T0859,V0648,P161,Kidney Function Test,29-Aug-2023,Normal,1000
+T0860,V0648,P161,Thyroid Profile,29-Aug-2023,Normal,200
+T0861,V0650,P161,Lipid Profile,18-Nov-2024,Abnormal,500
+T0862,V0650,P161,Liver Function Test,18-Nov-2024,Abnormal,350
+T0863,V0650,P161,Urine Routine,18-Nov-2024,Normal,750
+T0864,V0651,P162,Urine Routine,05-Jan-2023,Normal,200
+T0865,V0652,P162,HbA1c,22-Jun-2023,Normal,500
+T0866,V0652,P162,ECG,22-Jun-2023,Normal,350
+T0867,V0653,P162,ECG,17-Nov-2023,Normal,1200
+T0868,V0653,P162,ECG,17-Nov-2023,Normal,500
+T0869,V0654,P162,Urine Routine,14-Mar-2024,Normal,1200
+T0870,V0654,P162,Thyroid Profile,14-Mar-2024,Abnormal,350
+T0871,V0654,P162,Thyroid Profile,14-Mar-2024,Normal,750
+T0872,V0655,P163,Urine Routine,22-Apr-2023,Normal,350
+T0873,V0655,P163,Kidney Function Test,22-Apr-2023,Normal,500
+T0874,V0656,P163,Liver Function Test,29-Jun-2023,Normal,750
+T0875,V0657,P163,ECG,13-May-2024,Normal,1000
+T0876,V0658,P163,Chest X-Ray,18-Jul-2024,Normal,750
+T0877,V0658,P163,ECG,18-Jul-2024,Normal,500
+T0878,V0659,P164,Thyroid Profile,07-Feb-2023,Abnormal,500
+T0879,V0660,P164,Liver Function Test,06-Aug-2023,Normal,1000
+T0880,V0660,P164,Blood Glucose Fasting,06-Aug-2023,Normal,500
+T0881,V0662,P164,HbA1c,18-Jul-2024,Normal,350
+T0882,V0663,P164,Liver Function Test,15-Aug-2024,Normal,1200
+T0883,V0663,P164,Liver Function Test,15-Aug-2024,Normal,350
+T0884,V0663,P164,Lipid Profile,15-Aug-2024,Normal,1200
+T0885,V0666,P165,Kidney Function Test,13-Jun-2023,Abnormal,750
+T0886,V0666,P165,Urine Routine,13-Jun-2023,Normal,1200
+T0887,V0667,P165,Lipid Profile,03-Jul-2023,Normal,750
+T0888,V0667,P165,Thyroid Profile,03-Jul-2023,Abnormal,750
+T0889,V0667,P165,Urine Routine,03-Jul-2023,Abnormal,1000
+T0890,V0670,P165,Thyroid Profile,02-Aug-2024,Normal,750
+T0891,V0673,P166,Complete Blood Count,10-Oct-2024,Normal,500
+T0892,V0673,P166,Lipid Profile,10-Oct-2024,Abnormal,500
+T0893,V0675,P167,Kidney Function Test,20-Dec-2023,Normal,350
+T0894,V0675,P167,Chest X-Ray,20-Dec-2023,Normal,1200
+T0895,V0675,P167,Kidney Function Test,20-Dec-2023,Normal,1000
+T0896,V0676,P167,Lipid Profile,28-Dec-2023,Normal,500
+T0897,V0677,P167,Urine Routine,08-May-2024,Normal,750
+T0898,V0677,P167,Thyroid Profile,08-May-2024,Normal,750
+T0899,V0677,P167,Chest X-Ray,08-May-2024,Abnormal,350
+T0900,V0678,P167,ECG,13-May-2024,Normal,1200
+T0901,V0678,P167,Blood Glucose Fasting,13-May-2024,Normal,350
+T0902,V0679,P167,Urine Routine,10-Sep-2024,Abnormal,750
+T0903,V0679,P167,Thyroid Profile,10-Sep-2024,Abnormal,200
+T0904,V0679,P167,Chest X-Ray,10-Sep-2024,Normal,500
+T0905,V0680,P168,Blood Glucose Fasting,15-Jun-2023,Normal,750
+T0906,V0680,P168,HbA1c,15-Jun-2023,Abnormal,200
+T0907,V0681,P168,Blood Glucose Fasting,04-Aug-2023,Normal,350
+T0908,V0681,P168,ECG,04-Aug-2023,Normal,1200
+T0909,V0682,P168,Thyroid Profile,05-May-2024,Abnormal,500
+T0910,V0683,P168,Lipid Profile,27-Aug-2024,Normal,1000
+T0911,V0683,P168,Liver Function Test,27-Aug-2024,Normal,1000
+T0912,V0683,P168,ECG,27-Aug-2024,Abnormal,500
+T0913,V0684,P168,Chest X-Ray,24-Oct-2024,Normal,1000
+T0914,V0686,P169,ECG,10-Aug-2023,Normal,750
+T0915,V0686,P169,Blood Glucose Fasting,10-Aug-2023,Normal,500
+T0916,V0686,P169,ECG,10-Aug-2023,Normal,500
+T0917,V0689,P170,Lipid Profile,12-Mar-2023,Normal,750
+T0918,V0689,P170,Urine Routine,12-Mar-2023,Abnormal,1200
+T0919,V0689,P170,Chest X-Ray,12-Mar-2023,Normal,1200
+T0920,V0690,P170,Complete Blood Count,09-Apr-2024,Abnormal,350
+T0921,V0690,P170,Lipid Profile,09-Apr-2024,Normal,500
+T0922,V0690,P170,HbA1c,09-Apr-2024,Normal,500
+T0923,V0692,P170,Thyroid Profile,02-Sep-2024,Normal,750
+T0924,V0692,P170,HbA1c,02-Sep-2024,Normal,200
+T0925,V0692,P170,Blood Glucose Fasting,02-Sep-2024,Normal,200
+T0926,V0693,P171,Lipid Profile,09-Feb-2023,Normal,500
+T0927,V0693,P171,Complete Blood Count,09-Feb-2023,Abnormal,750
+T0928,V0694,P171,ECG,06-Apr-2023,Normal,750
+T0929,V0694,P171,Chest X-Ray,06-Apr-2023,Normal,350
+T0930,V0694,P171,Complete Blood Count,06-Apr-2023,Normal,500
+T0931,V0695,P171,ECG,01-May-2023,Normal,750
+T0932,V0696,P171,Thyroid Profile,30-May-2024,Normal,1200
+T0933,V0698,P171,Lipid Profile,06-Sep-2024,Normal,200
+T0934,V0698,P171,Lipid Profile,06-Sep-2024,Normal,500
+T0935,V0699,P172,Blood Glucose Fasting,27-Aug-2023,Normal,1200
+T0936,V0699,P172,Liver Function Test,27-Aug-2023,Normal,350
+T0937,V0699,P172,Lipid Profile,27-Aug-2023,Normal,350
+T0938,V0702,P173,HbA1c,08-Jan-2023,Normal,1200
+T0939,V0702,P173,Blood Glucose Fasting,08-Jan-2023,Normal,750
+T0940,V0704,P173,Chest X-Ray,30-Jul-2023,Abnormal,350
+T0941,V0704,P173,Kidney Function Test,30-Jul-2023,Normal,350
+T0942,V0704,P173,Complete Blood Count,30-Jul-2023,Abnormal,750
+T0943,V0705,P173,Thyroid Profile,20-Jan-2024,Normal,1200
+T0944,V0707,P173,Lipid Profile,01-Nov-2024,Normal,1200
+T0945,V0708,P174,Kidney Function Test,19-Dec-2023,Normal,500
+T0946,V0708,P174,Thyroid Profile,19-Dec-2023,Normal,1000
+T0947,V0709,P174,Chest X-Ray,12-Feb-2024,Normal,200
+T0948,V0709,P174,Blood Glucose Fasting,12-Feb-2024,Abnormal,500
+T0949,V0709,P174,Complete Blood Count,12-Feb-2024,Normal,750
+T0950,V0711,P174,Blood Glucose Fasting,23-Dec-2024,Normal,1200
+T0951,V0713,P175,Thyroid Profile,14-Jun-2023,Abnormal,750
+T0952,V0713,P175,Urine Routine,14-Jun-2023,Normal,750
+T0953,V0715,P175,Urine Routine,01-Dec-2024,Normal,350
+T0954,V0715,P175,Blood Glucose Fasting,01-Dec-2024,Abnormal,1000
+T0955,V0715,P175,Chest X-Ray,01-Dec-2024,Normal,1200
+T0956,V0718,P176,Kidney Function Test,25-Mar-2024,Normal,1200
+T0957,V0719,P176,Urine Routine,21-May-2024,Abnormal,750
+T0958,V0719,P176,Thyroid Profile,21-May-2024,Normal,1000
+T0959,V0720,P176,Urine Routine,17-Oct-2024,Abnormal,200
+T0960,V0721,P177,Thyroid Profile,06-Feb-2023,Normal,1000
+T0961,V0721,P177,Lipid Profile,06-Feb-2023,Abnormal,500
+T0962,V0721,P177,Thyroid Profile,06-Feb-2023,Normal,350
+T0963,V0722,P177,Urine Routine,04-Jan-2024,Abnormal,750
+T0964,V0722,P177,Kidney Function Test,04-Jan-2024,Normal,350
+T0965,V0722,P177,Complete Blood Count,04-Jan-2024,Abnormal,1000
+T0966,V0724,P178,Thyroid Profile,12-Mar-2023,Normal,1200
+T0967,V0724,P178,Thyroid Profile,12-Mar-2023,Normal,350
+T0968,V0725,P178,Thyroid Profile,21-Dec-2024,Normal,1000
+T0969,V0725,P178,HbA1c,21-Dec-2024,Normal,500
+T0970,V0725,P178,Complete Blood Count,21-Dec-2024,Abnormal,200
+T0971,V0727,P179,Lipid Profile,20-Aug-2023,Abnormal,350
+T0972,V0728,P179,Thyroid Profile,10-Apr-2024,Normal,350
+T0973,V0729,P179,Liver Function Test,12-Sep-2024,Normal,350
+T0974,V0729,P179,Thyroid Profile,12-Sep-2024,Normal,750
+T0975,V0730,P180,Urine Routine,14-Sep-2023,Normal,750
+T0976,V0732,P180,Kidney Function Test,29-Mar-2024,Abnormal,750
+T0977,V0732,P180,ECG,29-Mar-2024,Normal,750
+T0978,V0733,P180,Lipid Profile,30-Jul-2024,Normal,750
+T0979,V0733,P180,Chest X-Ray,30-Jul-2024,Abnormal,750
+T0980,V0733,P180,Liver Function Test,30-Jul-2024,Normal,1000
+T0981,V0734,P180,Liver Function Test,11-Aug-2024,Normal,750
+T0982,V0734,P180,ECG,11-Aug-2024,Normal,500
+T0983,V0734,P180,Urine Routine,11-Aug-2024,Normal,750
+T0984,V0735,P180,Thyroid Profile,11-Dec-2024,Normal,350
+T0985,V0737,P181,Kidney Function Test,06-Apr-2023,Normal,750
+T0986,V0737,P181,Chest X-Ray,06-Apr-2023,Normal,750
+T0987,V0737,P181,Kidney Function Test,06-Apr-2023,Normal,750
+T0988,V0738,P181,Blood Glucose Fasting,12-Sep-2023,Normal,750
+T0989,V0738,P181,Blood Glucose Fasting,12-Sep-2023,Normal,750
+T0990,V0738,P181,Lipid Profile,12-Sep-2023,Normal,350
+T0991,V0743,P182,Kidney Function Test,31-Dec-2023,Normal,1200
+T0992,V0743,P182,Chest X-Ray,31-Dec-2023,Abnormal,750
+T0993,V0743,P182,Thyroid Profile,31-Dec-2023,Normal,750
+T0994,V0744,P182,Complete Blood Count,25-Sep-2024,Normal,1200
+T0995,V0744,P182,Lipid Profile,25-Sep-2024,Normal,500
+T0996,V0745,P183,Thyroid Profile,19-Nov-2023,Abnormal,1000
+T0997,V0745,P183,Lipid Profile,19-Nov-2023,Normal,200
+T0998,V0745,P183,Blood Glucose Fasting,19-Nov-2023,Abnormal,1200
+T0999,V0747,P183,Blood Glucose Fasting,19-May-2024,Normal,1000
+T1000,V0747,P183,Chest X-Ray,19-May-2024,Normal,350
+T1001,V0747,P183,Liver Function Test,19-May-2024,Normal,1200
+T1002,V0748,P183,Chest X-Ray,11-Aug-2024,Normal,1000
+T1003,V0748,P183,Chest X-Ray,11-Aug-2024,Normal,1200
+T1004,V0748,P183,Blood Glucose Fasting,11-Aug-2024,Normal,1200
+T1005,V0749,P183,Liver Function Test,27-Sep-2024,Normal,1200
+T1006,V0749,P183,Chest X-Ray,27-Sep-2024,Abnormal,1200
+T1007,V0750,P184,Complete Blood Count,04-May-2023,Normal,200
+T1008,V0751,P184,Chest X-Ray,13-Apr-2024,Normal,1200
+T1009,V0751,P184,Chest X-Ray,13-Apr-2024,Abnormal,350
+T1010,V0751,P184,Lipid Profile,13-Apr-2024,Abnormal,1200
+T1011,V0752,P184,Blood Glucose Fasting,16-Dec-2024,Abnormal,750
+T1012,V0752,P184,Thyroid Profile,16-Dec-2024,Normal,350
+T1013,V0753,P185,Thyroid Profile,11-Jul-2023,Abnormal,500
+T1014,V0753,P185,Chest X-Ray,11-Jul-2023,Normal,750
+T1015,V0753,P185,Urine Routine,11-Jul-2023,Normal,200
+T1016,V0755,P185,Blood Glucose Fasting,27-Sep-2023,Abnormal,500
+T1017,V0755,P185,Complete Blood Count,27-Sep-2023,Abnormal,1000
+T1018,V0756,P185,Blood Glucose Fasting,15-Jul-2024,Normal,200
+T1019,V0756,P185,Complete Blood Count,15-Jul-2024,Abnormal,1200
+T1020,V0757,P186,HbA1c,13-Apr-2023,Abnormal,200
+T1021,V0758,P186,Liver Function Test,15-May-2023,Normal,750
+T1022,V0758,P186,Kidney Function Test,15-May-2023,Normal,1000
+T1023,V0758,P186,Kidney Function Test,15-May-2023,Normal,1200
+T1024,V0764,P187,Kidney Function Test,08-Dec-2024,Normal,200
+T1025,V0765,P188,Lipid Profile,24-Sep-2023,Normal,200
+T1026,V0765,P188,HbA1c,24-Sep-2023,Normal,500
+T1027,V0765,P188,Thyroid Profile,24-Sep-2023,Normal,500
+T1028,V0766,P188,ECG,04-Jan-2024,Normal,1000
+T1029,V0766,P188,Thyroid Profile,04-Jan-2024,Normal,200
+T1030,V0766,P188,Kidney Function Test,04-Jan-2024,Normal,200
+T1031,V0767,P188,Kidney Function Test,05-Jan-2024,Normal,1200
+T1032,V0768,P188,Urine Routine,27-Jul-2024,Normal,200
+T1033,V0768,P188,ECG,27-Jul-2024,Normal,1200
+T1034,V0768,P188,Blood Glucose Fasting,27-Jul-2024,Normal,1200
+T1035,V0769,P189,Lipid Profile,29-Nov-2023,Abnormal,1000
+T1036,V0769,P189,HbA1c,29-Nov-2023,Normal,200
+T1037,V0769,P189,Blood Glucose Fasting,29-Nov-2023,Abnormal,500
+T1038,V0773,P190,ECG,15-Mar-2023,Normal,1200
+T1039,V0773,P190,Thyroid Profile,15-Mar-2023,Normal,350
+T1040,V0774,P190,Blood Glucose Fasting,23-Mar-2023,Normal,750
+T1041,V0774,P190,Complete Blood Count,23-Mar-2023,Normal,350
+T1042,V0774,P190,Kidney Function Test,23-Mar-2023,Normal,750
+T1043,V0776,P190,Blood Glucose Fasting,18-Dec-2023,Normal,1200
+T1044,V0776,P190,HbA1c,18-Dec-2023,Abnormal,1200
+T1045,V0778,P190,Thyroid Profile,08-Aug-2024,Normal,1000
+T1046,V0778,P190,Urine Routine,08-Aug-2024,Normal,200
+T1047,V0778,P190,Chest X-Ray,08-Aug-2024,Normal,1200
+T1048,V0784,P193,Blood Glucose Fasting,11-Sep-2023,Abnormal,500
+T1049,V0785,P193,Urine Routine,18-Oct-2023,Normal,350
+T1050,V0787,P193,Kidney Function Test,29-Mar-2024,Abnormal,750
+T1051,V0787,P193,Complete Blood Count,29-Mar-2024,Normal,500
+T1052,V0788,P194,Chest X-Ray,21-Mar-2024,Abnormal,750
+T1053,V0788,P194,Kidney Function Test,21-Mar-2024,Normal,1200
+T1054,V0788,P194,Lipid Profile,21-Mar-2024,Normal,1000
+T1055,V0790,P194,HbA1c,20-Jun-2024,Normal,750
+T1056,V0791,P194,ECG,31-Jul-2024,Normal,1200
+T1057,V0791,P194,Urine Routine,31-Jul-2024,Normal,500
+T1058,V0792,P194,Complete Blood Count,08-Oct-2024,Normal,1000
+T1059,V0792,P194,HbA1c,08-Oct-2024,Normal,1200
+T1060,V0792,P194,Urine Routine,08-Oct-2024,Abnormal,750
+T1061,V0793,P194,Chest X-Ray,13-Oct-2024,Normal,200
+T1062,V0795,P195,Thyroid Profile,27-Oct-2023,Abnormal,1200
+T1063,V0795,P195,Lipid Profile,27-Oct-2023,Normal,750
+T1064,V0795,P195,Liver Function Test,27-Oct-2023,Normal,1200
+T1065,V0797,P195,Kidney Function Test,16-Mar-2024,Normal,750
+T1066,V0801,P196,Liver Function Test,11-Dec-2024,Normal,1200
+T1067,V0801,P196,HbA1c,11-Dec-2024,Normal,750
+T1068,V0801,P196,Kidney Function Test,11-Dec-2024,Abnormal,1000
+T1069,V0803,P197,Lipid Profile,11-Apr-2024,Normal,1000
+T1070,V0803,P197,ECG,11-Apr-2024,Abnormal,500
+T1071,V0803,P197,Thyroid Profile,11-Apr-2024,Normal,350
+T1072,V0805,P197,Urine Routine,14-Oct-2024,Abnormal,200
+T1073,V0805,P197,Lipid Profile,14-Oct-2024,Normal,750
+T1074,V0805,P197,Chest X-Ray,14-Oct-2024,Normal,1200
+T1075,V0808,P198,Complete Blood Count,03-Apr-2023,Abnormal,200
+T1076,V0808,P198,Kidney Function Test,03-Apr-2023,Normal,1000
+T1077,V0809,P198,Chest X-Ray,04-Jun-2023,Normal,350
+T1078,V0810,P198,Liver Function Test,27-Aug-2023,Normal,1200
+T1079,V0811,P199,Chest X-Ray,13-Jan-2023,Normal,1200
+T1080,V0814,P199,Chest X-Ray,14-Sep-2023,Normal,500
+T1081,V0814,P199,ECG,14-Sep-2023,Normal,500
+T1082,V0815,P199,ECG,26-Jan-2024,Abnormal,1200
+T1083,V0817,P200,Urine Routine,16-Jul-2024,Normal,750

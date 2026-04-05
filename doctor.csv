@@ -1,0 +1,16 @@
+Doctor_ID,Doctor_Name,Department,Specialization,Experience_Yrs,Consultation_Fee
+D001,Dr. Arun Sharma,Cardiology,Cardiology,25,500
+D002,Dr. Seema Verma,General Medicine,General Medicine,5,1200
+D003,Dr. Rakesh Singh,Pulmonology,Pulmonology,13,600
+D004,Dr. Lata Patel,Orthopedics,Orthopedics,12,600
+D005,Dr. Vivek Gupta,Neurology,Neurology,28,500
+D006,Dr. Smita Kumar,Endocrinology,Endocrinology,26,1200
+D007,Dr. Naveen Joshi,Nephrology,Nephrology,22,500
+D008,Dr. Rekha Mehta,Psychiatry,Psychiatry,23,800
+D009,Dr. Yusuf Rao,Cardiology,Cardiology,6,500
+D010,Dr. Deepa Nair,General Medicine,General Medicine,7,600
+D011,Dr. Harish Iyer,Pulmonology,Pulmonology,12,1000
+D012,Dr. Tanvi Reddy,Orthopedics,Orthopedics,24,500
+D013,Dr. Pawan Mishra,Neurology,Neurology,22,600
+D014,Dr. Asha Shah,Endocrinology,Endocrinology,27,1200
+D015,Dr. Kabir Dubey,Nephrology,Nephrology,27,1000
