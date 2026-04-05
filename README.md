@@ -1,5 +1,5 @@
 **Healthcare Operations Dashboard**
- An end-to-end data analytics project analyzing healthcare data to improve operational efficiency and patient care.
+An end-to-end data analytics project analyzing healthcare data to improve operational efficiency and patient care.
 
 **Project Summary**
 The goal was to analyze a healthcare dataset and answer real operational questions a hospital might actually care about.
