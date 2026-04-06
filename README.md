@@ -1,6 +1,10 @@
 **Healthcare Operations Dashboard**  
 An end-to-end data analytics project analyzing healthcare data to improve operational efficiency and patient care.
 
+**Excel Dashboard** <img width="1174" height="577" alt="image" src="https://github.com/user-attachments/assets/8a91b296-c1ed-4e19-be33-c36facd069a0" /> 
+
+**POWER BI DASHBOARD** <img width="1168" height="656" alt="image" src="https://github.com/user-attachments/assets/2921ff67-141f-4f41-a717-8a8741e491f5" />
+**LOOKER STUDIO REPORT** <img width="972" height="742" alt="image" src="https://github.com/user-attachments/assets/7958637b-f093-4421-b825-26f92f8afc1b" />
 **Project Summary**  
 The goal was to analyze a healthcare dataset and answer real operational questions a hospital might actually care about.  
 **Dataset:** 200 patients, 15 doctors, 817 visits, 1,083 lab tests across 2023–2024  
